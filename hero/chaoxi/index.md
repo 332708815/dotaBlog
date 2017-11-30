@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <div style=""><img style="height:400px;width:600px" src="photo/潮汐猎人载入.jpeg"></div>
 
 <div style="">潮汐猎人（简称：潮汐，英文简称：TH，外号：西瓜皮）</div>
@@ -209,3 +213,5 @@
 后期团战，没有跳刀的潮汐就站在队伍的最前排做肉盾（但是潮汐后期跳刀为必备道具），有跳刀的潮汐可以躲在阴影处找准机会给与对面一击毁灭性的跳大。</div>
 <div><br></div>
 </div>
+
+
