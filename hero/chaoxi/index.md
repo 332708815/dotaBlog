@@ -100,7 +100,6 @@ layout: default
 <div>
 	<img src="pictures/二技能介绍.png">
 </div>
-</div>
 <div>
 <div>如果6秒内没有受到来自玩家的伤害，伤害累计值将重置。</div>
 <div>海妖外壳能移除绝大多数负面状态，即使该状态效果无法驱散。</div>
