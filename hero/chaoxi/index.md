@@ -376,10 +376,6 @@ layout: default
     var main_attr = 1;
 
     $(function () {
-        if (window.location.href.indexOf("qbview.url.cn") >= 0) {
-            window.location.href = "https://erfeng0906.github.io/dotaBlog/hero/chaoxi/";
-        }
-    
         $("#str").text(str_init);
         $("#int").text(int_init);
         $("#agi").text(agi_init);
