@@ -14,11 +14,11 @@ layout: default
 <div style=""><br></div>
 <div style="">属性（裸装）：<br><br>
 
-<span>
-    等级：<span id="level" style="line-height: 18px;">1</span>级
-	力量：<span id="str" style="line-height: 18px;">22</span>
-	敏捷：<span id="agi" style="line-height: 18px;">15</span>
-	智力：<span id="int" style="line-height: 18px;">16</span>
+<spanstyle="line-height: 18px;">
+    等级:<span id="level" ></span>级
+	力量:<span id="str"></span>
+	敏捷:<span id="agi"></span>
+	智力:<span id="int"></span>
 </span>
 <table border="1" cellpadding="3" cellspacing="1" style="width:100%">
 
@@ -26,35 +26,35 @@ layout: default
 
 <tr>
 <td>气血</td>
-<td><span id="health">640</span></td>
+<td><span id="health"></span></td>
 <td>魔法</td>
-<td><span id="mana">267</span></td>
+<td><span id="mana"></span></td>
 <td>攻击力</td>
-<td><span id="attack">47 - 53</span></td>
+<td><span id="attack"></span></td>
 <td>攻击距离</td>
-<td>150</td>
+<td><span id="attack_range"></span></td>
 </tr>
 
 <tr>
 <td>攻速</td>
-<td><span id="attack_speed">115</span></td>
+<td><span id="attack_speed"></span></td>
 <td>移速</td>
-<td>305</td>
+<td><span id="speed"></span></td>
 <td>护甲</td>
-<td><span id="armor">3.5</span></td>
+<td><span id="armor"></span></td>
 <td>魔法抗性</td>
-<td>25%</td>
+<td><span id="magic_resistance"></span>%</td>
 </tr>
 
 <tr>
 <td>技能增强</td>
-<td><span id="magic_increase">1.1</span>%</td>
+<td><span id="magic_increase"></span>%</td>
 <td>生命恢复</td>
-<td><span id="health_recover">15.4</span>%</td>
+<td><span id="health_recover"></span>%</td>
 <td>魔法恢复</td>
-<td>span id="mana_recover">32</span>%</td>
+<td><span id="mana_recover"></span>%</td>
 <td class="state_resistance">状态抗性</td>
-<td class="state_resistance"><span id="state_resistance">3.3</span>%</td>
+<td class="state_resistance"><span id="state_resistance"></span>%</td>
 </tr>
 
 </tbody>
@@ -193,8 +193,11 @@ layout: default
   var attack_min = 25;
   var attack_max = 31;
   var attack_speed_init = 100;
+  var speed_init = 305;
   var attack_rate = 1.700000;
   var armor_init = 1;
+  var attack_range_init = 150;
+  var magic_resistance_init = 25;
   
   var main_attr= 1;
   	
@@ -228,7 +231,7 @@ layout: default
 			$("#attack_speed").text( attack_speed_init + Math.round(agi_now) ) ; 
 			$("#magic_increase").text( (int_now * 0.07).toFixed(2) ) ; 
 			$("#health_recover").text( (str_now * 0.7).toFixed(1) ) ; 
-			$("#mana_recover").text( int_now * 2 ) ;
+			$("#mana_recover").text( (int_now * 2).toFixed(1) ) ;
 		}
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
@@ -248,6 +251,9 @@ layout: default
 	  $("#magic_increase").text( (int_init * 0.07).toFixed(2) ) ; 
 	  $("#health_recover").text( (str_init * 0.7).toFixed(1) ) ; 
 	  $("#mana_recover").text( int_init * 2 ) ; 
+	  $("#speed").text( speed_init ) ; 
+	  $("#attack_range").text( attack_range_init ) ; 
+	  $("#magic_resistance").text( magic_resistance_init ) ; 
   });
 </script>
 
