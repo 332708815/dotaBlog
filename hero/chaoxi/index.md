@@ -49,16 +49,6 @@ layout: default
     </span>
     </div>
 
-    <div>
-        <br>
-        <div id="slider-range-max" style="width: 90%;margin-left: 20px;"
-             class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
-            <div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 100%;"></div>
-            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span>
-        </div>
-        <br>
-    </div>
-
     <table border="1" cellpadding="3" cellspacing="1" style="width:100%">
 
         <tbody>
@@ -411,8 +401,6 @@ layout: default
         
         $("#level").change(function(){
             var value = parseInt($("#level").val());
-            $("#amount").val(value);
-            $("#level").text(value);
             var str_now = str_init + str_up * (value - 1);
             var int_now = int_init + int_up * (value - 1);
             var agi_now = agi_init + agi_up * (value - 1);
@@ -435,7 +423,6 @@ layout: default
             $("#magic_increase").text((int_now * 0.07).toFixed(2));
             $("#health_recover").text((str_now * 0.7).toFixed(1));
             $("#mana_recover").text((int_now * 2).toFixed(1));
-            
         });
     });
 </script>
