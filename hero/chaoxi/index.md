@@ -248,11 +248,11 @@ layout: default
 			$("#int").text( int_now );
 			$("#agi").text( agi_now );
 			if ( main_attr == 1) {
-				$("#attack").text(String(attack_min_init + str_now)+" - "+String(attack_max_init + str_now);
+				$("#attack").text(String(attack_min_init + str_now)+" - "+String(attack_max_init + str_now));
 			} else if ( main_attr == 2 ) {
-				$("#attack").text(String(attack_min_init + int_now)+" - "+String(attack_max_init + int_now);
+				$("#attack").text(String(attack_min_init + int_now)+" - "+String(attack_max_init + int_now));
 			} else {
-				$("#attack").text(String(attack_min_init + agi_now)+" - "+String(attack_max_init + agi_now);
+				$("#attack").text(String(attack_min_init + agi_now)+" - "+String(attack_max_init + agi_now));
 			}
 			$("#health").text( health_init + str_now * 20);
 			$("#mana").text( mana_init + int_now * 12);
