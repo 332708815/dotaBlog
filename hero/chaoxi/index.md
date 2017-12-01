@@ -7,11 +7,6 @@ layout: default
 <div style="">潮汐猎人（简称：潮汐，英文简称：TH，外号：西瓜皮）</div>
 <br>
 
-<div style="">定位：</div>
-<div style="">
-    <img style="height:400px;width:600px" src="pictures/潮汐猎人定位.png">
-</div>
-<div style=""><br></div>
 <div style="">属性（裸装）：<br><br>
 
     <div>
@@ -93,6 +88,14 @@ layout: default
 
 <div><br></div>
 <div><br></div>
+
+<div style="">定位：</div>
+<div style="">
+    <img style="height:300px;width:300px" src="pictures/潮汐猎人定位.png">
+</div>
+<div style=""><br></div>
+<div style=""><br></div>
+
 <div>
     <div>技能介绍：</div>
     <div>一技能：巨浪<img src="pictures/一技能.jpg"></div>
