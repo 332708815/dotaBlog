@@ -14,12 +14,24 @@ layout: default
 <div style=""><br></div>
 <div style="">属性（裸装）：<br><br>
 
-<spanstyle="line-height: 18px;">
-    等级:<span id="level" ></span>级
-	力量:<span id="str"></span>
-	敏捷:<span id="agi"></span>
-	智力:<span id="int"></span>
-</span>
+<div>
+    <span style="line-height: 18px;">
+        等级:<span id="level" ></span>级
+        力量:<span id="str"></span>
+        敏捷:<span id="agi"></span>
+        智力:<span id="int"></span>
+    </span>
+</div>
+
+<div>
+    <br>
+	<div id="slider-range-max" style="width: 90%;margin-left: 20px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+		<div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 100%;"></div>
+		<span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span>
+	</div>
+	<br>
+</div>
+
 <table border="1" cellpadding="3" cellspacing="1" style="width:100%">
 
 <tbody>
@@ -60,13 +72,6 @@ layout: default
 </tbody>
 </table>
 
-
-<div>
-	<div id="slider-range-max" style="width: 90%;margin-left: 20px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
-		<div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 100%;"></div>
-		<span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span>
-	</div>
-</div>
 </div>
 
 <div><br></div>
@@ -235,6 +240,10 @@ layout: default
 		}
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
+	  $("#level").text( $( "#slider-range-max" ).slider( "value" ) );
+	  $("#str").text( str_init );
+	  $("#int").text( int_init );
+	  $("#agi").text( agi_init );
 	  $("#attack_speed").text( attack_speed_init + agi_init ) ;
 	  $("#armor").text((armor_init  + agi_init / 6).toFixed(1));
 	  $("#health").text(health_init + str_init * 20);
