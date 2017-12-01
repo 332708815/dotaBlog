@@ -50,34 +50,43 @@ layout: default
 
         <tr>
             <td>气血</td>
-            <td><span id="health"></span></td>
             <td>魔法</td>
-            <td><span id="mana"></span></td>
             <td>攻击力</td>
-            <td><span id="attack"></span></td>
             <td>攻击距离</td>
+        </tr>
+        
+        <tr>
+            <td><span id="health"></span></td>
+            <td><span id="mana"></span></td>
+            <td><span id="attack"></span></td>
             <td><span id="attack_range"></span></td>
         </tr>
 
         <tr>
             <td>攻速</td>
-            <td><span id="attack_speed"></span></td>
             <td>移速</td>
-            <td><span id="speed"></span></td>
             <td>护甲</td>
-            <td><span id="armor"></span></td>
             <td>魔法抗性</td>
+        </tr>
+        
+        <tr>
+            <td><span id="attack_speed"></span></td>
+            <td><span id="speed"></span></td>
+            <td><span id="armor"></span></td>
             <td><span id="magic_resistance"></span>%</td>
         </tr>
 
         <tr>
             <td>技能增强</td>
-            <td><span id="magic_increase"></span>%</td>
             <td>生命恢复</td>
-            <td><span id="health_recover"></span>%</td>
             <td>魔法恢复</td>
-            <td><span id="mana_recover"></span>%</td>
             <td class="state_resistance">状态抗性</td>
+        </tr>
+        
+        <tr>
+            <td><span id="magic_increase"></span>%</td>
+            <td><span id="health_recover"></span>%</td>
+            <td><span id="mana_recover"></span>%</td>
             <td class="state_resistance"><span id="state_resistance"></span>%</td>
         </tr>
 
