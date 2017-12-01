@@ -12,7 +12,7 @@ layout: default
 <img style="height:400px;width:600px" src="pictures/潮汐猎人定位.png">
 </div>
 <div style=""><br></div>
-<div style="">属性（裸装）：<br>
+<div style="">属性（裸装）：<br><br>
 
 <span>
 	力量：<span id="str" style="line-height: 18px;">22</span>
@@ -67,8 +67,6 @@ layout: default
 </div>
 
 <div><br></div>
-<div>潮汐猎人为力量英雄，力量额外获得“状态抗性”。</div>
-<div>1级：3.3%。 25级：15.2%。</div>
 <div><br></div>
 <div>
 <div>技能介绍：</div>
