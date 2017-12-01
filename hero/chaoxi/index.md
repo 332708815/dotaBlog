@@ -44,7 +44,7 @@ layout: default
 <td>法强</td>
 <td>生命恢复</td>
 <td>魔法恢复</td>
-<td>状态抗性</td>
+<td class="state_resistance">状态抗性</td>
 </tr>
 
 <tr>
@@ -60,7 +60,7 @@ layout: default
 <td><span id="magic_increase">1.1</span>%</td>
 <td><span id="health_recover">15.4</span>%</td>
 <td><span id="mana_recover">32</span>%</td>
-<td><span id="state_resistance">3.3</span>%</td>
+<td class="state_resistance"><span id="state_resistance">3.3</span>%</td>
 </tr>
 
 </tbody>
@@ -191,16 +191,11 @@ layout: default
   var mana_init = 75;
   var attack_min = 25;
   var attack_max = 31;
-  var attack_min_init = 0;
-  var attack_max_init = 0;
   var dps_init = 100;
   var attack_rate = 1.700000;
   var armor_init = 1 + agi_init / 6;
   
   var main_attr= 1;
-  var attack_gain = str_up;
-  attack_min_init = attack_min + str_init;
-  attack_max_init = attack_max + str_init;
   	
   $(function() {
     $( "#slider-range-max" ).slider({
@@ -218,11 +213,13 @@ layout: default
 			$("#int").text( int_now );
 			$("#agi").text( agi_now );
 			if ( main_attr == 1) {
-				$("#attack").text(String(attack_min_init + str_now)+" - "+String(attack_max_init + str_now));
+				$("#attack").text(String(attack_min + str_now)+" - "+String(attack_max + str_now));
+				$("#state_resistance").text( (str_now * 0.15).toFixed(2) ) ; 
+				$(".state_resistance").show();
 			} else if ( main_attr == 2 ) {
-				$("#attack").text(String(attack_min_init + int_now)+" - "+String(attack_max_init + int_now));
+				$("#attack").text(String(attack_min + int_now)+" - "+String(attack_max + int_now));
 			} else {
-				$("#attack").text(String(attack_min_init + agi_now)+" - "+String(attack_max_init + agi_now));
+				$("#attack").text(String(attack_min + agi_now)+" - "+String(attack_max + agi_now));
 			}
 			$("#health").text( health_init + str_now * 20);
 			$("#mana").text( mana_init + int_now * 12);
@@ -231,7 +228,6 @@ layout: default
 			$("#magic_increase").text( (int_now * 0.07).toFixed(2) ) ; 
 			$("#health_recover").text( (str_now * 0.7).toFixed(1) ) ; 
 			$("#mana_recover").text( int_now * 2 ) ;
-			$("#state_resistance").text( (str_now * 0.15).toFixed(2) ) ; 
 		}
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
@@ -239,11 +235,18 @@ layout: default
 	  $("#armor").text(armor_init.toFixed(1));
 	  $("#health").text(health_init + str_init * 20);
 	  $("#mana").text(mana_init + int_init * 12);
-	  $("#attack").text(String(attack_min_init)+" - "+String(attack_max_init));
+	  if ( main_attr == 1) {
+	  	  $("#attack").text(String(attack_min + str_init)+" - "+String(attack_max + str_init));
+	  	  $("#state_resistance").text( (str_init * 0.15).toFixed(2) ) ;
+	  	  $(".state_resistance").show();
+	  } else if ( main_attr == 2 ) {
+		  $("#attack").text(String(attack_min + int_init)+" - "+String(attack_max + int_init));
+	  } else {
+		  $("#attack").text(String(attack_min + agi_init)+" - "+String(attack_max + agi_init));
+	  }
 	  $("#magic_increase").text( (int_init * 0.07).toFixed(2) ) ; 
 	  $("#health_recover").text( (str_init * 0.7).toFixed(1) ) ; 
-	  $("#mana_recover").text( int_init * 2 ) ;
-	  $("#state_resistance").text( (str_init * 0.15).toFixed(2) ) ; 
+	  $("#mana_recover").text( int_init * 2 ) ; 
   });
 </script>
 
