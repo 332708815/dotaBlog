@@ -21,9 +21,9 @@ layout: default
 			<span style="font-size: 16px;">[等级<span id="level">1</span>]</span>
 		</div>
 		<span>
-			力量：<span id="str" style="line-height: 18px;float: left;">22</span>
-			敏捷：<span id="agi" style="line-height: 18px;float: left;">15</span>
-			智力：<span id="int" style="line-height: 18px;float: left;">16</span>
+			力量：<span id="str" style="line-height: 18px;">22</span>
+			敏捷：<span id="agi" style="line-height: 18px;">15</span>
+			智力：<span id="int" style="line-height: 18px;">16</span>
 		</span>
 		<span style="line-height: 20px;position: absolute;top:10px;right: 10px;font-size: 12px;line-height: 20px;"></span>
 	</div>
