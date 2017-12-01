@@ -30,9 +30,9 @@ layout: default
 <td>攻击力</td>
 <td>攻击距离</td>
 <td>攻速</td>
-<td>移动速度</td>
+<td>移速</td>
 <td>护甲</td>
-<td>魔法抗性</td>
+<td>魔抗</td>
 <td>法强</td>
 <td>生命恢复</td>
 <td>魔法恢复</td>
@@ -84,7 +84,7 @@ layout: default
 <div>神杖升级作用范围：240</div>
 <div>神杖升级冷却时间：7秒</div>
 <div><br></div>
-<div><img src="pictures/潮汐A帐一技能.gif"></div>
+<!-- <div><img src="pictures/潮汐A帐一技能.gif"></div> -->
 <br>
 <br>
 <div><span style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);"><br>
@@ -104,7 +104,7 @@ layout: default
 <div>
 1、带有伤害格挡的物品有：圆盾、先锋盾、赤红甲、大晕锤（深渊之刃）。“不与带有伤害格挡的物品叠加”，所以潮汐不推荐出圆盾、先锋盾、赤红甲、大晕锤（深渊之刃）。</div>
 <div>2、海妖外壳伤害达到临界值时能移除像眩晕、沉默等debuff。图中为解除血棘沉默时的效果。</div>
-<div><img src="pictures/海妖外壳解debuff.gif"><br>
+<!-- <div><img src="pictures/海妖外壳解debuff.gif"><br> -->
 <br></div>
 <div><br></div>
 <div><br></div>
@@ -139,7 +139,7 @@ layout: default
 <div>
 1、大秘刷秘大是出了刷新球之后的必备口诀。如果只是大刷大，耗蓝为325+375+325=1025。而使用口诀之后，耗蓝为325-135+375-135+325=755。如果为卫士胫甲的话，耗蓝为<span style="text-indent: 2em;">325-160+375-160+325=705。</span></div>
 <div><br></div>
-<div><img src="pictures/大秘刷秘大.gif"><br>
+<!-- <div><img src="pictures/大秘刷秘大.gif"><br> -->
 <span style="text-indent: 28px;">如图所示，大刷大的潮汐放完两个大后就空蓝了，使用大秘刷秘大口诀的潮汐结束还有三分之一所有的蓝，还能继续放其他技能。</span></div>
 <div><span style="text-indent: 2em;"><br></span></div>
 <div><span style="text-indent: 2em;">天赋：</span></div>
