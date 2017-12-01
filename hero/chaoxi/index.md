@@ -170,7 +170,7 @@ layout: default
         style="text-indent: 2em;">325-160+375-160+325=705。</span></div>
 <div><br></div>
 <!-- <div><img src="pictures/大秘刷秘大.gif"><br></div> -->
-<span style="text-indent: 28px;">如图所示，大刷大的潮汐放完两个大后就空蓝了，使用大秘刷秘大口诀的潮汐结束还有三分之一所有的蓝，还能继续放其他技能。</span></div>
+<span style="text-indent: 28px;">如图所示，大刷大的潮汐放完两个大后就空蓝了，使用大秘刷秘大口诀的潮汐结束还有三分之一所有的蓝，还能继续放其他技能。</span>
 <div><br></div>
 <div><br></div>
 
