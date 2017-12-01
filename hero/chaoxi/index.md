@@ -223,9 +223,9 @@ layout: default
 			$("#mana").text( mana_init + Math.floor(int_now) * 12);
 			$("#armor").text((armor_init  + agi_now / 6).toFixed(1));
 			$("#dps").text( dps_init + Math.round(agi_now) ) ; 
-			$("#magic_increase").text( (Math.round(int_now) * 0.07).toFixed(2) ) ; 
-			$("#health_recover").text( (Math.round(str_now) * 0.7).toFixed(1) ) ; 
-			$("#mana_recover").text( Math.round(int_now) * 2 ) ;
+			$("#magic_increase").text( (int_now * 0.07).toFixed(2) ) ; 
+			$("#health_recover").text( (str_now * 0.7).toFixed(1) ) ; 
+			$("#mana_recover").text( int_now * 2 ) ;
 		}
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
