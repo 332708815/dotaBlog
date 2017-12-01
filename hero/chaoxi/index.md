@@ -237,9 +237,6 @@ layout: default
   var str_up = 3.30;
   var int_up = 1.70;
   var agi_up = 1.50;
-  var health_add = str_up * 20;
-  var mana_add = int_up * 12;
-  var armor_add = agi_up / 6;
   var health_init = 200 + 20 * str_init;
   var mana_init = 75 + 12 * int_init;
   var attack_min = 25;
@@ -265,12 +262,12 @@ layout: default
 			$("#amount").val(ui.value);
 			$("#level").text(ui.value);
 			$("#str").text( Math.round(str_init + str_up*(ui.value-1)));
-			$("#int").text( Math.round(int_up + int_up*(ui.value-1)));
-			$("#agi").text( Math.round(agi_up + agi_up*(ui.value-1)));
-			$("#attack").text(String(Math.round(attack_min_init+attack_gain*(ui.value-1)))+" - "+String(Math.round(attack_max_init+attack_gain*(ui.value-1))));
-			$("#health").text(Math.round(health_init+health_add*(ui.value-1)));
-			$("#mana").text(Math.round(mana_init+mana_add*(ui.value-1)));
-			$("#armor").text((armor_init+armor_add*(ui.value-1)).toFixed(1));
+			$("#int").text( Math.round(int_init + int_up*(ui.value-1)));
+			$("#agi").text( Math.round(agi_init + agi_up*(ui.value-1)));
+			$("#attack").text(String(Math.floor(attack_min_init+attack_gain*(ui.value-1)))+" - "+String(Math.floor(attack_max_init+attack_gain*(ui.value-1))));
+			$("#health").text( health_init + Math.floor(str_up*(ui.value-1)) * 20);
+			$("#mana").text( mana_init + Math.floor(int_up*(ui.value-1)) * 12);
+			$("#armor").text((armor_init + (agi_up*(ui.value-1) / 6).toFixed(1));
 			$("#dps").text( Math.round(dps_init + agi_up*(ui.value-1)) ) ;      
 		}
     });
