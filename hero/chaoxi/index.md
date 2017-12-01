@@ -4,10 +4,10 @@ layout: default
 
 <div style=""><img style="height:400px;width:600px" src="pictures/潮汐猎人载入.jpeg"></div>
 
-<div style="">潮汐猎人（简称：潮汐，英文简称：TH，外号：西瓜皮）</div>
+<div style=""><h2>潮汐猎人（简称：潮汐，英文简称：TH，外号：西瓜皮）</h2></div>
 <br>
 
-<div style="">属性（裸装）：<br><br>
+<div style=""><h3>属性（裸装）：</h3><br><br>
 
     <div>
     <span style="line-height: 18px;">
@@ -89,7 +89,7 @@ layout: default
 <div><br></div>
 <div><br></div>
 
-<div style="">定位：</div>
+<div style=""><h3>定位：</h3></div>
 <div style="">
     <img style="height:300px;width:300px" src="pictures/潮汐猎人定位.png">
 </div>
@@ -97,7 +97,7 @@ layout: default
 <div style=""><br></div>
 
 <div>
-    <div>技能介绍：</div>
+    <div><h3>技能介绍：</h3></div>
     <div>一技能：巨浪<img src="pictures/一技能.jpg"></div>
     <div><br></div>
     <div>
@@ -171,13 +171,16 @@ layout: default
 <div><br></div>
 <!-- <div><img src="pictures/大秘刷秘大.gif"><br></div> -->
 <span style="text-indent: 28px;">如图所示，大刷大的潮汐放完两个大后就空蓝了，使用大秘刷秘大口诀的潮汐结束还有三分之一所有的蓝，还能继续放其他技能。</span></div>
-<div><span style="text-indent: 2em;"><br></span></div>
-<div><span style="text-indent: 2em;">天赋：</span></div>
+<div><br></div>
+<div><br></div>
+
+<div><h3>天赋：</h3></div>
 <div><img src="pictures/天赋.png"></div>
 <div><br></div>
 <div><br></div>
+
 <div>
-    <div><span style="text-indent: 2em;">技能天赋加点：</span></div>
+    <div><span style="text-indent: 2em;"><h3>技能天赋加点：</h3></span></div>
     <div><span style="text-indent: 2em;">建议一：前期发育很不顺，需要15级点经验天赋帮助自己提升等级</span></div>
     <div><span style="text-indent: 2em;">&nbsp;</span><a
             href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOqZFH5d"
@@ -274,8 +277,10 @@ layout: default
         href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd2e08ex85"
         target="_blank"><img src="http://s6.sinaimg.cn/mw690/002jW8tbzy7gd2e08ex85&amp;690"
                              name="image_operate_13971512024875672"></a><span style="text-indent: 2em;">右右</span></div>
-<div><span style="text-indent: 2em;"><br></span></div>
-<div><span style="text-indent: 2em;">出装选择：</span></div>
+<div><br></div>
+<div><br></div>
+
+<div><h3>出装选择：</h3></div>
 <div><span style="text-indent: 2em;">出门：树之祭祀、治疗药膏、魔法芒果、</span><span style="text-indent: 28px;">铁树枝干</span><span
         style="text-indent: 2em;">、铁树枝干、守护指环、侦查守卫（辅助提供）</span></div>
 <div><img class="item shuzhijisi">&nbsp;<img class="item zhiliaoyaogao">&nbsp;<a
@@ -348,7 +353,9 @@ layout: default
                              name="image_operate_40371512024810560"></a></div>
 <br>
 <div><br></div>
-<div>打法：</div>
+<div><br></div>
+
+<div><h3>打法：</h3></div>
 <div>前期凭借外壳和锚击减伤，可以试试强混烈士路。</div>
 <div>如果烈士路实在混不了，就转战野区。</div>
 <div>中期有大招就跟随队友一起推进。</div>
