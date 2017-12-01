@@ -189,6 +189,7 @@ li {
 }
 
 .hero-stats {
+    font-size: 14px;
     margin: 5px;
     width: 70px;
     float: left;
@@ -196,5 +197,4 @@ li {
     line-height: 20px;
     border: 1px solid rgb(45, 45, 45);
     text-align: center;
-    background-color: rgb(23, 23, 23);
 }
