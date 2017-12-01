@@ -77,6 +77,7 @@ layout: default
 <td>法强</td>
 <td>生命恢复</td>
 <td>魔法恢复</td>
+<td>状态抗性</td>
 </tr>
 
 <tr>
@@ -88,9 +89,10 @@ layout: default
 <td><span id="dps">115</span></td>
 <td><span id="armor">3.5</span></td>
 <td>25%</td>
-<td><span id="magic_increase">1.1%</span></td>
-<td><span id="health_recover">15.4%</span></td>
-<td><span id="mana_recover">32%</span></td>
+<td><span id="magic_increase">1.1</span>%</td>
+<td><span id="health_recover">15.4</span>%</td>
+<td><span id="mana_recover">32</span>%</td>
+<td><span id="state_resistance">3.3</span>%</td>
 </tr>
 
 </tbody>
@@ -258,9 +260,10 @@ layout: default
 			$("#mana").text( mana_init + int_now * 12);
 			$("#armor").text((agi_now / 6).toFixed(1));
 			$("#dps").text( dps_init + agi_now ) ; 
-			$("#magic_increase").text( int_now * 0.07% ) ; 
-			$("#health_recover").text( str_now * 0.7% ) ; 
-			$("#mana_recover").text( int_now * 2% ) ; 
+			$("#magic_increase").text( int_now * 0.07 ) ; 
+			$("#health_recover").text( str_now * 0.7 ) ; 
+			$("#mana_recover").text( int_now * 2 ) ;
+			$("#state_resistance").text( str_now * 0.15 ) ; 
 		}
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
@@ -269,6 +272,10 @@ layout: default
 	  $("#health").text(health_init + str_init * 20);
 	  $("#mana").text(mana_init + int_init * 12);
 	  $("#attack").text(String(attack_min_init)+" - "+String(attack_max_init));
+	  $("#magic_increase").text( int_init * 0.07 ) ; 
+	  $("#health_recover").text( str_init * 0.7 ) ; 
+	  $("#mana_recover").text( int_init * 2 ) ;
+	  $("#state_resistance").text( str_init * 0.15 ) ; 
   });
 </script>
 
