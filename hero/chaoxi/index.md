@@ -386,8 +386,6 @@ layout: default
     var main_attr = 1;
 
     $(function () {
-        $("#amount").val($("#slider-range-max").slider("value"));
-        $("#level").text($("#slider-range-max").slider("value"));
         $("#str").text(str_init);
         $("#int").text(int_init);
         $("#agi").text(agi_init);
