@@ -16,7 +16,33 @@ layout: default
 
     <div>
     <span style="line-height: 18px;">
-        等级:<span id="level"></span>级
+        等级:<select id="level" class="selectpicker">
+                <option value="1" select>1级</option>
+                <option value="2">2级</option>
+                <option value="3">3级</option>
+                <option value="4">4级</option>
+                <option value="5">5级</option>
+                <option value="6">6级</option>
+                <option value="7">7级</option>
+                <option value="8">8级</option>
+                <option value="9">9级</option>
+                <option value="10">10级</option>
+                <option value="11">11级</option>
+                <option value="12">12级</option>
+                <option value="13">13级</option>
+                <option value="14">14级</option>
+                <option value="15">15级</option>
+                <option value="16">16级</option>
+                <option value="17">17级</option>
+                <option value="18">18级</option>
+                <option value="19">19级</option>
+                <option value="20">20级</option>
+                <option value="21">21级</option>
+                <option value="22">22级</option>
+                <option value="23">23级</option>
+                <option value="24">24级</option>
+                <option value="25">25级</option>
+            </select><br/>
         力量:<span id="str"></span>
         敏捷:<span id="agi"></span>
         智力:<span id="int"></span>
@@ -360,38 +386,6 @@ layout: default
     var main_attr = 1;
 
     $(function () {
-        $("#slider-range-max").slider({
-            range: "max",
-            min: 1,
-            max: 25,
-            value: 1,
-            slide: function (event, ui) {
-                $("#amount").val(ui.value);
-                $("#level").text(ui.value);
-                var str_now = str_init + str_up * (ui.value - 1);
-                var int_now = int_init + int_up * (ui.value - 1);
-                var agi_now = agi_init + agi_up * (ui.value - 1);
-                $("#str").text(Math.round(str_now));
-                $("#int").text(Math.round(int_now));
-                $("#agi").text(Math.round(agi_now));
-                if (main_attr == 1) {
-                    $("#attack").text(String(attack_min + Math.round(str_now)) + " - " + String(attack_max + Math.round(str_now)));
-                    $("#state_resistance").text(( Math.round(str_now) * 0.15).toFixed(2));
-                    $(".state_resistance").show();
-                } else if (main_attr == 2) {
-                    $("#attack").text(String(attack_min + Math.round(int_now)) + " - " + String(attack_max + Math.round(int_now)));
-                } else {
-                    $("#attack").text(String(attack_min + Math.round(agi_now)) + " - " + String(attack_max + Math.round(agi_now)));
-                }
-                $("#health").text(health_init + Math.floor(str_now) * 20);
-                $("#mana").text(mana_init + Math.floor(int_now) * 12);
-                $("#armor").text((armor_init + agi_now / 6).toFixed(1));
-                $("#attack_speed").text(attack_speed_init + Math.round(agi_now));
-                $("#magic_increase").text((int_now * 0.07).toFixed(2));
-                $("#health_recover").text((str_now * 0.7).toFixed(1));
-                $("#mana_recover").text((int_now * 2).toFixed(1));
-            }
-        });
         $("#amount").val($("#slider-range-max").slider("value"));
         $("#level").text($("#slider-range-max").slider("value"));
         $("#str").text(str_init);
@@ -416,6 +410,35 @@ layout: default
         $("#speed").text(speed_init);
         $("#attack_range").text(attack_range_init);
         $("#magic_resistance").text(magic_resistance_init);
+        
+        $("#level").change(function(){
+            var value = parseInt($("#level").val());
+            $("#amount").val(value);
+            $("#level").text(value);
+            var str_now = str_init + str_up * (value - 1);
+            var int_now = int_init + int_up * (value - 1);
+            var agi_now = agi_init + agi_up * (value - 1);
+            $("#str").text(Math.round(str_now));
+            $("#int").text(Math.round(int_now));
+            $("#agi").text(Math.round(agi_now));
+            if (main_attr == 1) {
+                $("#attack").text(String(attack_min + Math.round(str_now)) + " - " + String(attack_max + Math.round(str_now)));
+                $("#state_resistance").text(( Math.round(str_now) * 0.15).toFixed(2));
+                $(".state_resistance").show();
+            } else if (main_attr == 2) {
+                $("#attack").text(String(attack_min + Math.round(int_now)) + " - " + String(attack_max + Math.round(int_now)));
+            } else {
+                $("#attack").text(String(attack_min + Math.round(agi_now)) + " - " + String(attack_max + Math.round(agi_now)));
+            }
+            $("#health").text(health_init + Math.floor(str_now) * 20);
+            $("#mana").text(mana_init + Math.floor(int_now) * 12);
+            $("#armor").text((armor_init + agi_now / 6).toFixed(1));
+            $("#attack_speed").text(attack_speed_init + Math.round(agi_now));
+            $("#magic_increase").text((int_now * 0.07).toFixed(2));
+            $("#health_recover").text((str_now * 0.7).toFixed(1));
+            $("#mana_recover").text((int_now * 2).toFixed(1));
+            
+        });
     });
 </script>
 
