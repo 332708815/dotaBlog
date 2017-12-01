@@ -15,6 +15,7 @@ layout: default
 <div style="">属性（裸装）：<br><br>
 
 <span>
+    等级：<span id="level" style="line-height: 18px;">1</span>级
 	力量：<span id="str" style="line-height: 18px;">22</span>
 	敏捷：<span id="agi" style="line-height: 18px;">15</span>
 	智力：<span id="int" style="line-height: 18px;">16</span>
@@ -24,46 +25,48 @@ layout: default
 <tbody>
 
 <tr>
-<td>&nbsp;</td>
 <td>气血</td>
+<td><span id="health">640</span></td>
 <td>魔法</td>
+<td><span id="mana">267</span></td>
 <td>攻击力</td>
+<td><span id="attack">47 - 53</span></td>
 <td>攻击距离</td>
-<td>攻速</td>
-<td>移速</td>
-<td>护甲</td>
-<td>魔抗</td>
-<td>法强</td>
-<td>生命恢复</td>
-<td>魔法恢复</td>
-<td class="state_resistance">状态抗性</td>
+<td>150</td>
 </tr>
 
 <tr>
-<td><span id="level">1</span>级</td>
-<td><span id="health">640</span></td>
-<td><span id="mana">267</span></td>
-<td><span id="attack">47 - 53</span></td>
-<td>150</td>
-<td><span id="dps">115</span></td>
-<td><span>305</span></td>
+<td>攻速</td>
+<td><span id="attack_speed">115</span></td>
+<td>移速</td>
+<td>305</td>
+<td>护甲</td>
 <td><span id="armor">3.5</span></td>
+<td>魔法抗性</td>
 <td>25%</td>
+</tr>
+
+<tr>
+<td>技能增强</td>
 <td><span id="magic_increase">1.1</span>%</td>
+<td>生命恢复</td>
 <td><span id="health_recover">15.4</span>%</td>
-<td><span id="mana_recover">32</span>%</td>
+<td>魔法恢复</td>
+<td>span id="mana_recover">32</span>%</td>
+<td class="state_resistance">状态抗性</td>
 <td class="state_resistance"><span id="state_resistance">3.3</span>%</td>
 </tr>
 
 </tbody>
 </table>
 
-<div><br></div>
+
 <div>
 	<div id="slider-range-max" style="width: 90%;margin-left: 20px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
 		<div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 100%;"></div>
 		<span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span>
 	</div>
+</div>
 </div>
 
 <div><br></div>
@@ -189,7 +192,7 @@ layout: default
   var mana_init = 75;
   var attack_min = 25;
   var attack_max = 31;
-  var dps_init = 100;
+  var attack_speed_init = 100;
   var attack_rate = 1.700000;
   var armor_init = 1;
   
@@ -222,14 +225,14 @@ layout: default
 			$("#health").text( health_init + Math.floor(str_now) * 20);
 			$("#mana").text( mana_init + Math.floor(int_now) * 12);
 			$("#armor").text((armor_init  + agi_now / 6).toFixed(1));
-			$("#dps").text( dps_init + Math.round(agi_now) ) ; 
+			$("#attack_speed").text( attack_speed_init + Math.round(agi_now) ) ; 
 			$("#magic_increase").text( (int_now * 0.07).toFixed(2) ) ; 
 			$("#health_recover").text( (str_now * 0.7).toFixed(1) ) ; 
 			$("#mana_recover").text( int_now * 2 ) ;
 		}
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
-	  $("#dps").text( dps_init + agi_init ) ;
+	  $("#attack_speed").text( attack_speed_init + agi_init ) ;
 	  $("#armor").text((armor_init  + agi_init / 6).toFixed(1));
 	  $("#health").text(health_init + str_init * 20);
 	  $("#mana").text(mana_init + int_init * 12);
