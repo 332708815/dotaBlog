@@ -16,7 +16,7 @@ layout: default
 
     <div>
     <span style="line-height: 18px;">
-        等级:<select id="level" class="selectpicker">
+        等级:<select id="level" class="btn-group bootstrap-select form-control" style="width:15%">
                 <option value="1" select>1级</option>
                 <option value="2">2级</option>
                 <option value="3">3级</option>
