@@ -14,53 +14,11 @@ layout: default
 <div style=""><br></div>
 <div style="">属性（裸装）：<br>
 
-
-<div>
-	<div style="display:table;width: 100%;margin-bottom: 15px;position: relative;">
-		<div style="line-height: 32px;font-size: 18px;font-weight: 500;margin-top:10px;">
-			<span style="font-size: 16px;">[等级<span id="level">1</span>]</span>
-		</div>
-		<span>
-			力量：<span id="str" style="line-height: 18px;">22</span>
-			敏捷：<span id="agi" style="line-height: 18px;">15</span>
-			智力：<span id="int" style="line-height: 18px;">16</span>
-		</span>
-		<span style="line-height: 20px;position: absolute;top:10px;right: 10px;font-size: 12px;line-height: 20px;"></span>
-	</div>
-	<div id="slider-range-max" style="width: 90%;margin-left: 20px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
-		<div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 100%;"></div>
-		<span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span>
-	</div>
-	<div style="margin: 15px;display:table;">
-		<div class="hero-stats">
-	       攻击力<br><span id="attack">47 - 53</span>
-	   </div>
-	   <div class="hero-stats">
-	       护甲<br><span id="armor">3.5</span>
-	   </div>
-	   <div class="hero-stats">
-	       移动速度<br><span>305</span>
-	   </div>
-	   <div class="hero-stats">
-	       攻击速度<br><span id="dps">115</span>
-	   </div>
-	   <div class="hero-stats">
-	       生命值<br><span id="health">640</span>
-	   </div>
-	   <div class="hero-stats">
-	       魔法值<br><span id="mana">267</span>
-	   </div>
-	   <div class="hero-stats">
-	       转身速度<br><span>0.500000</span>
-	   </div>
-	   <div class="hero-stats">
-	       攻击前摇<br><span>0.600000</span>
-	   </div>
-	</div>
-</div>
-
-
-
+<span>
+	力量：<span id="str" style="line-height: 18px;">22</span>
+	敏捷：<span id="agi" style="line-height: 18px;">15</span>
+	智力：<span id="int" style="line-height: 18px;">16</span>
+</span>
 <table border="1" cellpadding="3" cellspacing="1" style="width:100%">
 
 <tbody>
@@ -72,6 +30,7 @@ layout: default
 <td>攻击力</td>
 <td>攻击距离</td>
 <td>攻速</td>
+<td>移动速度</td>
 <td>护甲</td>
 <td>魔法抗性</td>
 <td>法强</td>
@@ -87,6 +46,7 @@ layout: default
 <td><span id="attack">47 - 53</span></td>
 <td>150</td>
 <td><span id="dps">115</span></td>
+<td><span>305</span></td>
 <td><span id="armor">3.5</span></td>
 <td>25%</td>
 <td><span id="magic_increase">1.1</span>%</td>
@@ -260,10 +220,10 @@ layout: default
 			$("#mana").text( mana_init + int_now * 12);
 			$("#armor").text((agi_now / 6).toFixed(1));
 			$("#dps").text( dps_init + agi_now ) ; 
-			$("#magic_increase").text( int_now * 0.07 ) ; 
-			$("#health_recover").text( str_now * 0.7 ) ; 
+			$("#magic_increase").text( (int_now * 0.07).toFixed(2) ) ; 
+			$("#health_recover").text( (str_now * 0.7).toFixed(1) ) ; 
 			$("#mana_recover").text( int_now * 2 ) ;
-			$("#state_resistance").text( str_now * 0.15 ) ; 
+			$("#state_resistance").text( (str_now * 0.15).toFixed(2) ) ; 
 		}
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
@@ -272,10 +232,10 @@ layout: default
 	  $("#health").text(health_init + str_init * 20);
 	  $("#mana").text(mana_init + int_init * 12);
 	  $("#attack").text(String(attack_min_init)+" - "+String(attack_max_init));
-	  $("#magic_increase").text( int_init * 0.07 ) ; 
-	  $("#health_recover").text( str_init * 0.7 ) ; 
+	  $("#magic_increase").text( (int_init * 0.07).toFixed(2) ) ; 
+	  $("#health_recover").text( (str_init * 0.7).toFixed(1) ) ; 
 	  $("#mana_recover").text( int_init * 2 ) ;
-	  $("#state_resistance").text( str_init * 0.15 ) ; 
+	  $("#state_resistance").text( (str_init * 0.15).toFixed(2) ) ; 
   });
 </script>
 
