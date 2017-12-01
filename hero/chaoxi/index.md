@@ -14,6 +14,22 @@ layout: default
 <div style=""><br></div>
 <div style="">属性（裸装）：<br>
 
+
+<div>
+<div style="display:table;width: 100%;margin-bottom: 15px;position: relative;"><img style="width: 50px;height: 50px;padding: 12px;float: left;" src="http://cdn.dota2.com/apps/dota2/images/heroes/tidehunter_vert.jpg"><div style="line-height: 32px;font-size: 18px;font-weight: 500;margin-top:10px;">潮汐猎人 <span style="color: #fff;font-size: 16px;">[等级<span id="level">1</span>]</span></div><span><img src="/static/image/overviewicon_str.png" style="width:18px;float: left;margin-right: 3px;"><div id="str" style="line-height: 18px;float: left;">22</div><img src="/static/image/overviewicon_agi.png" style="width:18px;float: left;margin-left: 10px;margin-right: 3px;"><div id="agi" style="line-height: 18px;float: left;">15</div><img src="/static/image/overviewicon_int.png" style="width:18px;float: left;margin-left: 10px;margin-right: 3px;"><div id="int" style="line-height: 18px;float: left;">16</div></span><span style="line-height: 20px;position: absolute;top:10px;right: 10px;font-size: 12px;line-height: 20px;"></span></div><div id="slider-range-max" style="width: 90%;margin-left: 20px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 100%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span></div><div style="margin: 15px;display:table;"><div class="hero-stats">
+              攻击力<br><span id="attack">47 - 53</span></div><div class="hero-stats">
+                护甲<br><span id="armor">3.1</span></div><div class="hero-stats">
+                 移动速度<br><span>305</span></div><div class="hero-stats">
+                DPS(攻速)<br><span id="dps">30 (1.67)</span></div><div class="hero-stats">
+                生命值<br><span id="health">568</span></div><div class="hero-stats">
+                魔法值<br><span id="mana">208</span></div><div class="hero-stats">
+                转身速度<br><span>0.500000</span></div><div class="hero-stats">
+                攻击前摇<br><span>0.600000</span></div></div>
+
+</div>
+
+
+
 <table border="1" cellpadding="3" cellspacing="1" style="width:100%">
 
 <tbody>
@@ -182,4 +198,66 @@ layout: default
 <div><br></div>
 </div>
 
+
+<script>
+  var health_add = 3.300000*19;
+  var mana_add = 1.700000*13;
+  var armor_add = 1.500000/7;
+  var health_init = 150+22*19;
+  var mana_init = 16*13;
+  var attack_min = 25;
+  var attack_max = 31;
+  var attack_min_init = 0;
+  var attack_max_init = 0;
+  var as_init = 1.700000/(1+1.500000/100);
+  var attack_gain = 0;
+  var attack_rate = 1.700000;
+  var armor_init = 1+15/7;
+  var main_attr= 0;
+  if ('DOTA_ATTRIBUTE_STRENGTH' == 'DOTA_ATTRIBUTE_INTELLECT') {
+  	main_attr = 3;
+	attack_gain = 1.700000;
+	attack_min_init = attack_min + 16;
+	attack_max_init = attack_max + 16;
+  }  	
+  else {
+  	if ('DOTA_ATTRIBUTE_STRENGTH' == 'DOTA_ATTRIBUTE_STRENGTH') {
+  	  main_attr= 1;
+  	  attack_gain = 3.300000;
+  	  attack_min_init = attack_min + 22;
+  	  attack_max_init = attack_max + 22;
+  	} else {
+  	  main_attr= 2;
+  	  attack_gain = 1.500000;
+  	  attack_min_init = attack_min + 15;
+  	  attack_max_init = attack_max + 15;
+  	}
+  }
+  $(function() {
+    $( "#slider-range-max" ).slider({
+      range: "max",
+      min: 1,
+      max: 25,
+      value: 1,
+      slide: function( event, ui ) {
+      	var as_now = 1.700000/(1+ (1.500000+1.500000*(ui.value-1))/100);
+        $("#amount").val(ui.value);
+        $("#level").text(ui.value);
+        $("#str").text( Math.round(22 + 3.300000*(ui.value-1)));
+        $("#int").text( Math.round(16 + 1.700000*(ui.value-1)));
+        $("#agi").text( Math.round(15 + 1.500000*(ui.value-1)));
+        $("#attack").text(String(Math.round(attack_min_init+attack_gain*(ui.value-1)))+" - "+String(Math.round(attack_max_init+attack_gain*(ui.value-1))));
+        $("#health").text(Math.round(health_init+health_add*(ui.value-1)));
+        $("#mana").text(Math.round(mana_init+mana_add*(ui.value-1)));
+        $("#armor").text((armor_init+armor_add*(ui.value-1)).toFixed(1));
+		$("#dps").text( String(Math.round((1/as_now)*((attack_min_init+attack_max_init)/2 + attack_gain*(ui.value-1) ))) + " ("+ String((as_now).toFixed(2)) +")" ) ;      }
+    });
+    $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
+    $("#dps").text( String(Math.round( (1/as_init)*((attack_min_init+attack_max_init)/2))) + " ("+ String((as_init).toFixed(2)) +")" ) ;
+    $("#armor").text(armor_init.toFixed(1));
+    $("#health").text(health_init);
+    $("#mana").text(mana_init);
+    $("#attack").text(String(attack_min_init)+" - "+String(attack_max_init));
+  });
+</script>
 
