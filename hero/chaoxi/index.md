@@ -204,28 +204,28 @@ layout: default
       slide: function( event, ui ) {
 			$("#amount").val(ui.value);
 			$("#level").text(ui.value);
-			var str_now = Math.floor(str_init + str_up*(ui.value-1));
-			var int_now = Math.floor(int_init + int_up*(ui.value-1));
-			var agi_now = Math.floor(agi_init + agi_up*(ui.value-1));
-			$("#str").text( str_now );
-			$("#int").text( int_now );
-			$("#agi").text( agi_now );
+			var str_now = str_init + str_up*(ui.value-1);
+			var int_now = int_init + int_up*(ui.value-1);
+			var agi_now = agi_init + agi_up*(ui.value-1);
+			$("#str").text( Math.round(str_now) );
+			$("#int").text( Math.round(int_now) );
+			$("#agi").text( Math.round(agi_now) );
 			if ( main_attr == 1) {
-				$("#attack").text(String(attack_min + str_now)+" - "+String(attack_max + str_now));
-				$("#state_resistance").text( (str_now * 0.15).toFixed(2) ) ; 
+				$("#attack").text(String( attack_min + Math.round(str_now) )+" - "+String( attack_max + Math.round(str_now) ));
+				$("#state_resistance").text( ( Math.round(str_now) * 0.15).toFixed(2) ) ; 
 				$(".state_resistance").show();
 			} else if ( main_attr == 2 ) {
-				$("#attack").text(String(attack_min + int_now)+" - "+String(attack_max + int_now));
+				$("#attack").text(String( attack_min + Math.round(int_now) )+" - "+String( attack_max + Math.round(int_now) ));
 			} else {
-				$("#attack").text(String(attack_min + agi_now)+" - "+String(attack_max + agi_now));
+				$("#attack").text(String( attack_min + Math.round(agi_now) )+" - "+String( attack_max + Math.round(agi_now) ));
 			}
-			$("#health").text( health_init + str_now * 20);
-			$("#mana").text( mana_init + int_now * 12);
+			$("#health").text( health_init + Math.floor(str_now) * 20);
+			$("#mana").text( mana_init + Math.floor(int_now) * 12);
 			$("#armor").text((armor_init  + agi_now / 6).toFixed(1));
-			$("#dps").text( dps_init + agi_now ) ; 
-			$("#magic_increase").text( (int_now * 0.07).toFixed(2) ) ; 
-			$("#health_recover").text( (str_now * 0.7).toFixed(1) ) ; 
-			$("#mana_recover").text( int_now * 2 ) ;
+			$("#dps").text( dps_init + Math.round(agi_now) ) ; 
+			$("#magic_increase").text( (Math.round(int_now) * 0.07).toFixed(2) ) ; 
+			$("#health_recover").text( (Math.round(str_now) * 0.7).toFixed(1) ) ; 
+			$("#mana_recover").text( Math.round(int_now) * 2 ) ;
 		}
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
