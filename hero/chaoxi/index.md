@@ -16,17 +16,47 @@ layout: default
 
 
 <div>
-<div style="display:table;width: 100%;margin-bottom: 15px;position: relative;">
-	<div style="line-height: 32px;font-size: 18px;font-weight: 500;margin-top:10px;"><span style="font-size: 16px;">[等级<span id="level">1</span>]</span></div><span>力量：<div id="str" style="line-height: 18px;float: left;">22</div>敏捷：<div id="agi" style="line-height: 18px;float: left;">15</div>智力：<div id="int" style="line-height: 18px;float: left;">16</div></span><span style="line-height: 20px;position: absolute;top:10px;right: 10px;font-size: 12px;line-height: 20px;"></span></div><div id="slider-range-max" style="width: 90%;margin-left: 20px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 100%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span></div><div style="margin: 15px;display:table;"><div class="hero-stats">
-              攻击力<br><span id="attack">47 - 53</span></div><div class="hero-stats">
-                护甲<br><span id="armor">3.1</span></div><div class="hero-stats">
-                 移动速度<br><span>305</span></div><div class="hero-stats">
-                DPS(攻速)<br><span id="dps">30 (1.67)</span></div><div class="hero-stats">
-                生命值<br><span id="health">568</span></div><div class="hero-stats">
-                魔法值<br><span id="mana">208</span></div><div class="hero-stats">
-                转身速度<br><span>0.500000</span></div><div class="hero-stats">
-                攻击前摇<br><span>0.600000</span></div></div>
-
+	<div style="display:table;width: 100%;margin-bottom: 15px;position: relative;">
+		<div style="line-height: 32px;font-size: 18px;font-weight: 500;margin-top:10px;">
+			<span style="font-size: 16px;">[等级<span id="level">1</span>]</span>
+		</div>
+		<span>
+			力量：<span id="str" style="line-height: 18px;float: left;">22</span>
+			敏捷：<span id="agi" style="line-height: 18px;float: left;">15</span>
+			智力：<span id="int" style="line-height: 18px;float: left;">16</span>
+		</span>
+		<span style="line-height: 20px;position: absolute;top:10px;right: 10px;font-size: 12px;line-height: 20px;"></span>
+	</div>
+	<div id="slider-range-max" style="width: 90%;margin-left: 20px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+		<div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 100%;"></div>
+		<span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span>
+	</div>
+	<div style="margin: 15px;display:table;">
+		<div class="hero-stats">
+	       攻击力<br><span id="attack">47 - 53</span>
+	   </div>
+	   <div class="hero-stats">
+	       护甲<br><span id="armor">3.1</span>
+	   </div>
+	   <div class="hero-stats">
+	       移动速度<br><span>305</span>
+	   </div>
+	   <div class="hero-stats">
+	       DPS(攻速)<br><span id="dps">30 (1.67)</span>
+	   </div>
+	   <div class="hero-stats">
+	       生命值<br><span id="health">568</span>
+	   </div>
+	   <div class="hero-stats">
+	       魔法值<br><span id="mana">208</span>
+	   </div>
+	   <div class="hero-stats">
+	       转身速度<br><span>0.500000</span>
+	   </div>
+	   <div class="hero-stats">
+	       攻击前摇<br><span>0.600000</span>
+	   </div>
+	</div>
 </div>
 
 
