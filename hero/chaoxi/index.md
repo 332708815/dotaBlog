@@ -193,7 +193,7 @@ layout: default
   var attack_max = 31;
   var dps_init = 100;
   var attack_rate = 1.700000;
-  var armor_init = 1 + agi_init / 6;
+  var armor_init = 1;
   
   var main_attr= 1;
   	
@@ -223,7 +223,7 @@ layout: default
 			}
 			$("#health").text( health_init + str_now * 20);
 			$("#mana").text( mana_init + int_now * 12);
-			$("#armor").text((agi_now / 6).toFixed(1));
+			$("#armor").text((armor_init  + agi_now / 6).toFixed(1));
 			$("#dps").text( dps_init + agi_now ) ; 
 			$("#magic_increase").text( (int_now * 0.07).toFixed(2) ) ; 
 			$("#health_recover").text( (str_now * 0.7).toFixed(1) ) ; 
@@ -232,7 +232,7 @@ layout: default
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
 	  $("#dps").text( dps_init + agi_init ) ;
-	  $("#armor").text(armor_init.toFixed(1));
+	  $("#armor").text((armor_init  + agi_init / 6).toFixed(1));
 	  $("#health").text(health_init + str_init * 20);
 	  $("#mana").text(mana_init + int_init * 12);
 	  if ( main_attr == 1) {
