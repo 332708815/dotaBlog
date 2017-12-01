@@ -73,44 +73,24 @@ layout: default
 <td>攻击距离</td>
 <td>攻速</td>
 <td>护甲</td>
-<td>物理抗性</td>
 <td>魔法抗性</td>
-<td>闪避</td>
 <td>法强</td>
 <td>生命恢复</td>
 <td>魔法恢复</td>
 </tr>
 
 <tr>
-<td>&nbsp;1级</td>
-<td>640</td>
-<td>267</td>
-<td>47-53</td>
+<td><span id="level">1</span>级</td>
+<td><span id="health">640</span></td>
+<td><span id="mana">267</span></td>
+<td><span id="attack">47 - 53</span></td>
 <td>150</td>
-<td>115</td>
-<td>3.5</td>
-<td>18%</td>
+<td><span id="dps">115</span></td>
+<td><span id="armor">3.5</span></td>
 <td>25%</td>
-<td>0%</td>
-<td>1.1%</td>
-<td>1.5+0.24</td>
-<td>0.9+0.29</td>
-</tr>
-
-<tr>
-<td>&nbsp;25级</td>
-<td>2220</td>
-<td>747</td>
-<td>126-132</td>
-<td>150</td>
-<td>151</td>
-<td>9.5</td>
-<td>32%</td>
-<td>25%</td>
-<td>0%</td>
-<td>3.8%</td>
-<td>1.5+1.08</td>
-<td>0.9+1.02</td>
+<td><span id="magic_increase">1.1%</span></td>
+<td><span id="health_recover">15.4%</span></td>
+<td><span id="mana_recover">32%</span></td>
 </tr>
 
 </tbody>
@@ -237,13 +217,13 @@ layout: default
   var str_up = 3.30;
   var int_up = 1.70;
   var agi_up = 1.50;
-  var health_init = 200 + 20 * str_init;
-  var mana_init = 75 + 12 * int_init;
+  var health_init = 200;
+  var mana_init = 75;
   var attack_min = 25;
   var attack_max = 31;
   var attack_min_init = 0;
   var attack_max_init = 0;
-  var dps_init = 115;
+  var dps_init = 100;
   var attack_rate = 1.700000;
   var armor_init = 1 + agi_init / 6;
   
@@ -261,21 +241,33 @@ layout: default
       slide: function( event, ui ) {
 			$("#amount").val(ui.value);
 			$("#level").text(ui.value);
-			$("#str").text( Math.round(str_init + str_up*(ui.value-1)));
-			$("#int").text( Math.round(int_init + int_up*(ui.value-1)));
-			$("#agi").text( Math.round(agi_init + agi_up*(ui.value-1)));
-			$("#attack").text(String(Math.floor(attack_min_init+attack_gain*(ui.value-1)))+" - "+String(Math.floor(attack_max_init+attack_gain*(ui.value-1))));
-			$("#health").text( health_init + Math.floor(str_up*(ui.value-1)) * 20);
-			$("#mana").text( mana_init + Math.floor(int_up*(ui.value-1)) * 12);
-			$("#armor").text((armor_init + agi_up*(ui.value-1) / 6).toFixed(1));
-			$("#dps").text( Math.round(dps_init + agi_up*(ui.value-1)) ) ;      
+			var str_now = Math.floor(str_init + str_up*(ui.value-1));
+			var int_now = Math.floor(int_init + int_up*(ui.value-1));
+			var agi_now = Math.floor(agi_init + agi_up*(ui.value-1));
+			$("#str").text( str_now );
+			$("#int").text( int_now );
+			$("#agi").text( agi_now );
+			if ( main_attr == 1) {
+				$("#attack").text(String(attack_min_init + str_now)+" - "+String(attack_max_init + str_now);
+			} else if ( main_attr == 2 ) {
+				$("#attack").text(String(attack_min_init + int_now)+" - "+String(attack_max_init + int_now);
+			} else {
+				$("#attack").text(String(attack_min_init + agi_now)+" - "+String(attack_max_init + agi_now);
+			}
+			$("#health").text( health_init + str_now * 20);
+			$("#mana").text( mana_init + int_now * 12);
+			$("#armor").text((agi_now / 6).toFixed(1));
+			$("#dps").text( dps_init + agi_now ) ; 
+			$("#magic_increase").text( int_now * 0.07% ) ; 
+			$("#health_recover").text( str_now * 0.7% ) ; 
+			$("#mana_recover").text( int_now * 2% ) ; 
 		}
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
-	  $("#dps").text( Math.round(dps_init + agi_up*(ui.value-1)) ) ;
+	  $("#dps").text( Math.round(dps_init + agi_init ) ;
 	  $("#armor").text(armor_init.toFixed(1));
-	  $("#health").text(health_init);
-	  $("#mana").text(mana_init);
+	  $("#health").text(health_init + str_init * 20);
+	  $("#mana").text(mana_init + int_init * 12);
 	  $("#attack").text(String(attack_min_init)+" - "+String(attack_max_init));
   });
 </script>
