@@ -36,19 +36,19 @@ layout: default
 	       攻击力<br><span id="attack">47 - 53</span>
 	   </div>
 	   <div class="hero-stats">
-	       护甲<br><span id="armor">3.1</span>
+	       护甲<br><span id="armor">3.5</span>
 	   </div>
 	   <div class="hero-stats">
 	       移动速度<br><span>305</span>
 	   </div>
 	   <div class="hero-stats">
-	       DPS(攻速)<br><span id="dps">30 (1.67)</span>
+	       攻击速度<br><span id="dps">115</span>
 	   </div>
 	   <div class="hero-stats">
-	       生命值<br><span id="health">568</span>
+	       生命值<br><span id="health">640</span>
 	   </div>
 	   <div class="hero-stats">
-	       魔法值<br><span id="mana">208</span>
+	       魔法值<br><span id="mana">267</span>
 	   </div>
 	   <div class="hero-stats">
 	       转身速度<br><span>0.500000</span>
@@ -231,39 +231,30 @@ layout: default
 
 
 <script>
-  var health_add = 3.300000*19;
-  var mana_add = 1.700000*13;
-  var armor_add = 1.500000/7;
-  var health_init = 150+22*19;
-  var mana_init = 16*13;
+  var str_init = 22;
+  var int_init = 16;
+  var agi_init = 15;
+  var str_up = 3.30;
+  var int_up = 1.70;
+  var agi_up = 1.50;
+  var health_add = str_up * 20;
+  var mana_add = int_up * 12;
+  var armor_add = agi_up / 6;
+  var health_init = 200 + 20 * str_init;
+  var mana_init = 75 + 12 * int_init;
   var attack_min = 25;
   var attack_max = 31;
   var attack_min_init = 0;
   var attack_max_init = 0;
-  var as_init = 1.700000/(1+1.500000/100);
-  var attack_gain = 0;
+  var dps_init = 115;
   var attack_rate = 1.700000;
-  var armor_init = 1+15/7;
-  var main_attr= 0;
-  if ('DOTA_ATTRIBUTE_STRENGTH' == 'DOTA_ATTRIBUTE_INTELLECT') {
-  	main_attr = 3;
-	attack_gain = 1.700000;
-	attack_min_init = attack_min + 16;
-	attack_max_init = attack_max + 16;
-  }  	
-  else {
-  	if ('DOTA_ATTRIBUTE_STRENGTH' == 'DOTA_ATTRIBUTE_STRENGTH') {
-  	  main_attr= 1;
-  	  attack_gain = 3.300000;
-  	  attack_min_init = attack_min + 22;
-  	  attack_max_init = attack_max + 22;
-  	} else {
-  	  main_attr= 2;
-  	  attack_gain = 1.500000;
-  	  attack_min_init = attack_min + 15;
-  	  attack_max_init = attack_max + 15;
-  	}
-  }
+  var armor_init = 1 + agi_init / 6;
+  
+  var main_attr= 1;
+  var attack_gain = str_up;
+  attack_min_init = attack_min + str_init;
+  attack_max_init = attack_max + str_init;
+  	
   $(function() {
     $( "#slider-range-max" ).slider({
       range: "max",
@@ -271,24 +262,24 @@ layout: default
       max: 25,
       value: 1,
       slide: function( event, ui ) {
-      	var as_now = 1.700000/(1+ (1.500000+1.500000*(ui.value-1))/100);
-        $("#amount").val(ui.value);
-        $("#level").text(ui.value);
-        $("#str").text( Math.round(22 + 3.300000*(ui.value-1)));
-        $("#int").text( Math.round(16 + 1.700000*(ui.value-1)));
-        $("#agi").text( Math.round(15 + 1.500000*(ui.value-1)));
-        $("#attack").text(String(Math.round(attack_min_init+attack_gain*(ui.value-1)))+" - "+String(Math.round(attack_max_init+attack_gain*(ui.value-1))));
-        $("#health").text(Math.round(health_init+health_add*(ui.value-1)));
-        $("#mana").text(Math.round(mana_init+mana_add*(ui.value-1)));
-        $("#armor").text((armor_init+armor_add*(ui.value-1)).toFixed(1));
-		$("#dps").text( String(Math.round((1/as_now)*((attack_min_init+attack_max_init)/2 + attack_gain*(ui.value-1) ))) + " ("+ String((as_now).toFixed(2)) +")" ) ;      }
+			$("#amount").val(ui.value);
+			$("#level").text(ui.value);
+			$("#str").text( Math.round(str_init + str_up*(ui.value-1)));
+			$("#int").text( Math.round(int_up + int_up*(ui.value-1)));
+			$("#agi").text( Math.round(agi_up + agi_up*(ui.value-1)));
+			$("#attack").text(String(Math.round(attack_min_init+attack_gain*(ui.value-1)))+" - "+String(Math.round(attack_max_init+attack_gain*(ui.value-1))));
+			$("#health").text(Math.round(health_init+health_add*(ui.value-1)));
+			$("#mana").text(Math.round(mana_init+mana_add*(ui.value-1)));
+			$("#armor").text((armor_init+armor_add*(ui.value-1)).toFixed(1));
+			$("#dps").text( Math.round(dps_init + agi_up*(ui.value-1)) ) ;      
+		}
     });
-    $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
-    $("#dps").text( String(Math.round( (1/as_init)*((attack_min_init+attack_max_init)/2))) + " ("+ String((as_init).toFixed(2)) +")" ) ;
-    $("#armor").text(armor_init.toFixed(1));
-    $("#health").text(health_init);
-    $("#mana").text(mana_init);
-    $("#attack").text(String(attack_min_init)+" - "+String(attack_max_init));
+	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
+	  $("#dps").text( Math.round(dps_init + agi_up*(ui.value-1)) ) ;
+	  $("#armor").text(armor_init.toFixed(1));
+	  $("#health").text(health_init);
+	  $("#mana").text(mana_init);
+	  $("#attack").text(String(attack_min_init)+" - "+String(attack_max_init));
   });
 </script>
 
