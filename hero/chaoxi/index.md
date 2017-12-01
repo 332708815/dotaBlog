@@ -14,6 +14,14 @@ layout: default
 <div style=""><br></div>
 <div style="">属性（裸装）：<br>
 
+
+<div>
+	<div id="slider-range-max" style="width: 90%;margin-left: 20px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+		<div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 100%;"></div>
+		<span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span>
+	</div>
+</div>
+
 <span>
 	力量：<span id="str" style="line-height: 18px;">22</span>
 	敏捷：<span id="agi" style="line-height: 18px;">15</span>
