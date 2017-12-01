@@ -267,7 +267,7 @@ layout: default
 		}
     });
 	  $("#amount").val( $( "#slider-range-max" ).slider( "value" ) );
-	  $("#dps").text( Math.round(dps_init + agi_init ) ;
+	  $("#dps").text( dps_init + agi_init ) ;
 	  $("#armor").text(armor_init.toFixed(1));
 	  $("#health").text(health_init + str_init * 20);
 	  $("#mana").text(mana_init + int_init * 12);
