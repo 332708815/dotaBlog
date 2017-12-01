@@ -7,7 +7,7 @@ layout: default
 <div style=""><h2>潮汐猎人（简称：潮汐，英文简称：TH，外号：西瓜皮）</h2></div>
 <br>
 
-<div style=""><h3>属性（裸装）：</h3><br><br>
+<div style=""><h3>属性（裸装）：</h3><br>
 
     <div>
     <span style="line-height: 18px;">
@@ -124,7 +124,6 @@ layout: default
     <!-- <div><img src="pictures/潮汐A帐一技能.gif"></div> -->
     <br>
     <br>
-    <div><span style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);"><br></span></div>
 </div>
 <div><font color="#333333">二技能：海妖外壳</font><img src="pictures/二技能.jpg"></div>
 <div><br></div>
@@ -141,7 +140,7 @@ layout: default
     1、带有伤害格挡的物品有：圆盾、先锋盾、赤红甲、大晕锤（深渊之刃）。“不与带有伤害格挡的物品叠加”，所以潮汐不推荐出圆盾、先锋盾、赤红甲、大晕锤（深渊之刃）。
 </div>
 <div>2、海妖外壳伤害达到临界值时能移除像眩晕、沉默等debuff。图中为解除血棘沉默时的效果。</div>
-<!-- <div><img src="pictures/海妖外壳解debuff.gif"><br><br></div> -->
+<!-- <div><img src="pictures/海妖外壳解debuff.gif"></div> -->
 <div><br></div>
 <div><br></div>
 <div>三技能：锚击<img src="pictures/三技能.jpg"></div>
@@ -338,7 +337,6 @@ layout: default
         href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8lt8w58d"
         target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gd8lt8w58d&amp;690"
                              name="image_operate_8281512024528113"></a><br></div>
-<div><span style="text-indent: 2em;"><br></span></div>
 <div><span style="text-indent: 2em;">后期：卫士胫甲、洞察烟斗、希瓦的守护、闪烁匕首、刷新球、玲珑心、恐鳌之心、辉耀</span></div>
 <div><a href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8vh0Ojd7"
         target="_blank"><img src="http://s8.sinaimg.cn/mw690/002jW8tbzy7gd8vh0Ojd7&amp;690"></a>&nbsp;<a
@@ -360,7 +358,6 @@ layout: default
         href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8FIa4zb3"
         target="_blank"><img src="http://s4.sinaimg.cn/mw690/002jW8tbzy7gd8FIa4zb3&amp;690"
                              name="image_operate_40371512024810560"></a></div>
-<br>
 <div><br></div>
 <div><br></div>
 
