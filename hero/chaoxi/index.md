@@ -267,7 +267,7 @@ layout: default
 			$("#attack").text(String(Math.floor(attack_min_init+attack_gain*(ui.value-1)))+" - "+String(Math.floor(attack_max_init+attack_gain*(ui.value-1))));
 			$("#health").text( health_init + Math.floor(str_up*(ui.value-1)) * 20);
 			$("#mana").text( mana_init + Math.floor(int_up*(ui.value-1)) * 12);
-			$("#armor").text(armor_init + (agi_up*(ui.value-1) / 6).toFixed(1));
+			$("#armor").text((armor_init + agi_up*(ui.value-1) / 6).toFixed(1));
 			$("#dps").text( Math.round(dps_init + agi_up*(ui.value-1)) ) ;      
 		}
     });
