@@ -107,7 +107,7 @@ layout: default
 
 <div>
     <div><h3>技能介绍：</h3></div>
-    <div>一技能：巨浪<img src="pictures/一技能.jpg"></div>
+    <div>一技能：巨浪<img class="skill_icon" src="pictures/一技能.png"></div>
     <div><br></div>
     <div>
         <img src="pictures/一技能介绍.png">
@@ -125,7 +125,7 @@ layout: default
     <br>
     <br>
 </div>
-<div><font color="#333333">二技能：海妖外壳</font><img src="pictures/二技能.jpg"></div>
+<div>二技能：海妖外壳<img class="skill_icon" src="pictures/二技能.png"></div>
 <div><br></div>
 <div>
     <img src="pictures/二技能介绍.png">
@@ -143,7 +143,7 @@ layout: default
 <!-- <div><img src="pictures/海妖外壳解debuff.gif"></div> -->
 <div><br></div>
 <div><br></div>
-<div>三技能：锚击<img src="pictures/三技能.jpg"></div>
+<div>三技能：锚击<img class="skill_icon" src="pictures/三技能.png"></div>
 <div><br></div>
 <div>
     <img src="pictures/三技能介绍.png">
@@ -166,7 +166,7 @@ layout: default
 <div>5）远古花岗石傀儡的攻击力为82，潮汐得4级外壳+3级锚击或者3级外壳+4级锚击才能无伤。</div>
 <div>6）远古萨满潜行者。。。潮汐前期看到它就放弃打远古吧。。。</div>
 <div><br></div>
-<div>四技能：毁灭<img src="pictures/四技能.png"></div>
+<div>四技能：毁灭<img class="skill_icon" src="pictures/四技能.png"></div>
 <div><br></div>
 <div>
     <img src="pictures/四技能介绍.png">
@@ -336,6 +336,7 @@ layout: default
         href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8lt8w58d"
         target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gd8lt8w58d&amp;690"
                              name="image_operate_8281512024528113"></a><br></div>
+<div><br></div>
 <div>后期：卫士胫甲、洞察烟斗、希瓦的守护、闪烁匕首、刷新球、玲珑心、恐鳌之心、辉耀</div>
 <div><a href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8vh0Ojd7"
         target="_blank"><img src="http://s8.sinaimg.cn/mw690/002jW8tbzy7gd8vh0Ojd7&amp;690"></a>&nbsp;<a

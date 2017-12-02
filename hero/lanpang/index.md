@@ -107,7 +107,7 @@ layout: default
 
 <div>
     <div><h3>技能介绍：</h3></div>
-    <div>一技能：火焰爆轰<img src="pictures/一技能.jpg"></div>
+    <div>一技能：火焰爆轰<img class="skill_icon" src="pictures/一技能.png"></div>
     <div><br></div>
     <div>
         <img src="pictures/一技能介绍.png">
@@ -121,7 +121,7 @@ layout: default
 <div><br></div>
 <div><br></div>
 
-<div>二技能：引燃<img src="pictures/二技能.jpg"></div>
+<div>二技能：引燃<img class="skill_icon" src="pictures/二技能.png"></div>
 <div><br></div>
 <div>
     <img src="pictures/二技能介绍.png">
@@ -133,7 +133,7 @@ layout: default
 <div><br></div>
 <div><br></div>
 
-<div>三技能：嗜血术<img src="pictures/三技能.jpg"></div>
+<div>三技能：嗜血术<img class="skill_icon" src="pictures/三技能.png"></div>
 <div><br></div>
 <div>
     <img src="pictures/三技能介绍.png">
@@ -144,7 +144,7 @@ layout: default
 <div><br></div>
 <div><br></div>
 
-<div>四技能：毁灭<img src="pictures/四技能.png"></div>
+<div>四技能：多重施法<img class="skill_icon" src="pictures/四技能.png"></div>
 <div><br></div>
 <div>
     <img src="pictures/四技能介绍.png">
@@ -217,6 +217,7 @@ layout: default
         href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8lt8w58d"
         target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gd8lt8w58d&amp;690"
                              name="image_operate_8281512024528113"></a><br></div>
+<div><br></div>
 <div>后期：卫士胫甲、洞察烟斗、希瓦的守护、闪烁匕首、刷新球、玲珑心、恐鳌之心、辉耀</div>
 <div><a href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8vh0Ojd7"
         target="_blank"><img src="http://s8.sinaimg.cn/mw690/002jW8tbzy7gd8vh0Ojd7&amp;690"></a>&nbsp;<a
@@ -264,7 +265,7 @@ layout: default
     var attack_range_init = 150;
     var magic_resistance_init = 25;
 
-    var main_attr = 1;
+    var main_attr = 2;
 
     $(function () {
         $("#str").text(str_init);
