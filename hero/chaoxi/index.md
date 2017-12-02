@@ -190,174 +190,55 @@ layout: default
 <div>
     <div><h3>技能天赋加点：</h3></div>
     <div>建议一：前期发育很不顺，需要15级点经验天赋帮助自己提升等级</div>
-    <div>&nbsp;<a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOqZFH5d"
-            target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gbSOqZFH5d&amp;690"
-                                 name="image_operate_78741511956851817"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOtz7C9c"
-            target="_blank"><img src="http://s13.sinaimg.cn/mw690/002jW8tbzy7gbSOtz7C9c&amp;690"
-                                 name="image_operate_14581511956861801"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOtz7C9c"
-            target="_blank"><img src="http://s13.sinaimg.cn/mw690/002jW8tbzy7gbSOtz7C9c&amp;690"
-                                 name="image_operate_14581511956861801"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOqZFH5d"
-            target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gbSOqZFH5d&amp;690"
-                                 name="image_operate_78741511956851817"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOtz7C9c"
-            target="_blank"><img src="http://s13.sinaimg.cn/mw690/002jW8tbzy7gbSOtz7C9c&amp;690"
-                                 name="image_operate_14581511956861801"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd2e08ex85"
-            target="_blank"><img src="http://s6.sinaimg.cn/mw690/002jW8tbzy7gd2e08ex85&amp;690"
-                                 name="image_operate_89361512024875922"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSODSEMa0"
-            target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gbSODSEMa0&amp;690"
-                                 name="image_operate_64011511956853651"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOtz7C9c"
-            target="_blank"><img src="http://s13.sinaimg.cn/mw690/002jW8tbzy7gbSOtz7C9c&amp;690"
-                                 name="image_operate_14581511956861801"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOqZFH5d"
-            target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gbSOqZFH5d&amp;690"
-                                 name="image_operate_78741511956851817"></a>左<a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOqZFH5d"
-            target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gbSOqZFH5d&amp;690"
-                                 name="image_operate_78741511956851817"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd2e08ex85"
-            target="_blank"><img src="http://s6.sinaimg.cn/mw690/002jW8tbzy7gd2e08ex85&amp;690"
-                                 name="image_operate_74571512024915677"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSODSEMa0"
-            target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gbSODSEMa0&amp;690"
-                                 name="image_operate_64011511956853651"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSODSEMa0"
-            target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gbSODSEMa0&amp;690"
-                                 name="image_operate_64011511956853651"></a>右<a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSODSEMa0"
-            target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gbSODSEMa0&amp;690"
-                                 name="image_operate_64011511956853651"></a><a
-            href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd2e08ex85"
-            target="_blank"><img src="http://s6.sinaimg.cn/mw690/002jW8tbzy7gd2e08ex85&amp;690"
-                                 name="image_operate_71091512024911243"></a>右右
+    <div>&nbsp;<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png">左<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png">右<img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png">右右
     </div>
     <br></div>
-<div>建议二：对面物理输出英雄多，加大减伤削弱对面输出</div>
-<div>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOqZFH5d"
-        target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gbSOqZFH5d&amp;690"
-                             name="image_operate_78741511956851817"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOtz7C9c"
-        target="_blank"><img src="http://s13.sinaimg.cn/mw690/002jW8tbzy7gbSOtz7C9c&amp;690"
-                             name="image_operate_14581511956861801"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOtz7C9c"
-        target="_blank"><img src="http://s13.sinaimg.cn/mw690/002jW8tbzy7gbSOtz7C9c&amp;690"
-                             name="image_operate_14581511956861801"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOqZFH5d"
-        target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gbSOqZFH5d&amp;690"
-                             name="image_operate_78741511956851817"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOtz7C9c"
-        target="_blank"><img src="http://s13.sinaimg.cn/mw690/002jW8tbzy7gbSOtz7C9c&amp;690"
-                             name="image_operate_14581511956861801"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd2e08ex85"
-        target="_blank"><img src="http://s6.sinaimg.cn/mw690/002jW8tbzy7gd2e08ex85&amp;690"
-                             name="image_operate_89361512024875922"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSODSEMa0"
-        target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gbSODSEMa0&amp;690"
-                             name="image_operate_64011511956853651"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOtz7C9c"
-        target="_blank"><img src="http://s13.sinaimg.cn/mw690/002jW8tbzy7gbSOtz7C9c&amp;690"
-                             name="image_operate_14581511956861801"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOqZFH5d"
-        target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gbSOqZFH5d&amp;690"
-                             name="image_operate_78741511956851817"></a>左<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSOqZFH5d"
-        target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gbSOqZFH5d&amp;690"
-                             name="image_operate_78741511956851817"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd2e08ex85"
-        target="_blank"><img src="http://s6.sinaimg.cn/mw690/002jW8tbzy7gd2e08ex85&amp;690"
-                             name="image_operate_3311512024895541"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSODSEMa0"
-        target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gbSODSEMa0&amp;690"
-                             name="image_operate_64011511956853651"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSODSEMa0"
-        target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gbSODSEMa0&amp;690"
-                             name="image_operate_64011511956853651"></a>左<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gbSODSEMa0"
-        target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gbSODSEMa0&amp;690"
-                             name="image_operate_64011511956853651"></a><a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd2e08ex85"
-        target="_blank"><img src="http://s6.sinaimg.cn/mw690/002jW8tbzy7gd2e08ex85&amp;690"
-                             name="image_operate_13971512024875672"></a>右右</div>
+    <div>建议二：对面物理输出英雄多，加大减伤削弱对面输出</div>
+    <div>&nbsp;<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png">左<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png">左<img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png">右右
+    </div>
 <div><br></div>
 <div><br></div>
 
 <div><h3>出装选择：</h3></div>
-<div>出门：树之祭祀、治疗药膏、魔法芒果、铁树枝干、铁树枝干、守护指环、侦查守卫（辅助提供）</div>
-<div><img class="item shuzhijisi">&nbsp;<img class="item zhiliaoyaogao">&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8bLHuD8f"
-        target="_blank"><img src="http://s16.sinaimg.cn/mw690/002jW8tbzy7gd8bLHuD8f&amp;690"
-                             name="image_operate_28841512024433719"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd84MNpfe1"
-        target="_blank"><img src="http://s2.sinaimg.cn/mw690/002jW8tbzy7gd84MNpfe1&amp;690"
-                             name="image_operate_32571512024566818"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd84MNpfe1"
-        target="_blank"><img src="http://s2.sinaimg.cn/mw690/002jW8tbzy7gd84MNpfe1&amp;690"
-                             name="image_operate_39481512024458082"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd85AG7idc"
-        target="_blank"><img src="http://s13.sinaimg.cn/mw690/002jW8tbzy7gd85AG7idc&amp;690"
-                             name="image_operate_35571512024458172"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd86avSw00"
-        target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gd86avSw00&amp;690"
-                             name="image_operate_95241512024479192"></a></div>
+<div>出门：树之祭祀、治疗药膏、魔法芒果、铁树枝干*2、守护指环、侦查守卫（辅助提供）</div>
+<div>
+    <img class="item shuzhijisi">&nbsp;
+    <img class="item zhiliaoyaogao">&nbsp;
+    <img class="item mofamangguo">&nbsp;
+    <img class="item tieshuzhigan">&nbsp;
+    <img class="item shouhuzhihuan">&nbsp;
+    <img class="item zhenchashouwei">
+</div>
 <div><br></div>
 <div>前期：魔杖、奥术鞋、恢复头巾/治疗指环/王者之戒</div>
-<div><a href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8jeQbNab"
-        target="_blank"><img src="http://s12.sinaimg.cn/mw690/002jW8tbzy7gd8jeQbNab&amp;690"
-                             name="image_operate_70581512024547616"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8k1J3G10"
-        target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gd8k1J3G10&amp;690"
-                             name="image_operate_78871512024559300"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8pqJH927"
-        target="_blank"><img src="http://s8.sinaimg.cn/mw690/002jW8tbzy7gd8pqJH927&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8pZPmS3e"
-        target="_blank"><img src="http://s15.sinaimg.cn/mw690/002jW8tbzy7gd8pZPmS3e&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8qqRIDb3"
-        target="_blank"><img src="http://s4.sinaimg.cn/mw690/002jW8tbzy7gd8qqRIDb3&amp;690"></a></div>
+<div>
+    <img class="item mozhang">&nbsp;
+    <img class="item aoshuxie">&nbsp;
+    <img class="item huifutoujin">&nbsp;
+    <img class="item zhiliaozhihuan">&nbsp;
+    <img class="item wangzhezhijie">
+</div>
 <div><br></div>
 <div>中期：魔杖、奥术鞋、梅肯斯姆/挑战头巾，闪烁匕首</div>
-<div><a href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8jeQbNab"
-        target="_blank"><img src="http://s12.sinaimg.cn/mw690/002jW8tbzy7gd8jeQbNab&amp;690"
-                             name="image_operate_70581512024547616"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8k1J3G10"
-        target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gd8k1J3G10&amp;690"
-                             name="image_operate_11161512024639711"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8krYhncd"
-        target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gd8krYhncd&amp;690"
-                             name="image_operate_66551512024548599"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8kYJakd4"
-        target="_blank"><img src="http://s5.sinaimg.cn/mw690/002jW8tbzy7gd8kYJakd4&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8lt8w58d"
-        target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gd8lt8w58d&amp;690"
-                             name="image_operate_8281512024528113"></a><br></div>
+<div>
+    <img class="item mozhang">&nbsp;
+    <img class="item aoshuxie">&nbsp;
+    <img class="item meikensimu">&nbsp;
+    <img class="item tiaozhantoujin">&nbsp;
+    <img class="item shanshuobishou">
+</div>
 <div><br></div>
 <div>后期：卫士胫甲、洞察烟斗、希瓦的守护、闪烁匕首、刷新球、玲珑心、恐鳌之心、辉耀</div>
-<div><a href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8vh0Ojd7"
-        target="_blank"><img src="http://s8.sinaimg.cn/mw690/002jW8tbzy7gd8vh0Ojd7&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8A1CND15"
-        target="_blank"><img src="http://s6.sinaimg.cn/mw690/002jW8tbzy7gd8A1CND15&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8AC2Ur03"
-        target="_blank"><img src="http://s4.sinaimg.cn/mw690/002jW8tbzy7gd8AC2Ur03&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8AWDgO5e"
-        target="_blank"><img src="http://s15.sinaimg.cn/mw690/002jW8tbzy7gd8AWDgO5e&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8BjkTqb4"
-        target="_blank"><img src="http://s5.sinaimg.cn/mw690/002jW8tbzy7gd8BjkTqb4&amp;690"
-                             name="image_operate_40311512024772177"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8BZdoNdd"
-        target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gd8BZdoNdd&amp;690"
-                             name="image_operate_76121512024772197"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8FqQOy0e"
-        target="_blank"><img src="http://s15.sinaimg.cn/mw690/002jW8tbzy7gd8FqQOy0e&amp;690"
-                             name="image_operate_36081512024810365"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8FIa4zb3"
-        target="_blank"><img src="http://s4.sinaimg.cn/mw690/002jW8tbzy7gd8FIa4zb3&amp;690"
-                             name="image_operate_40371512024810560"></a></div>
+<div>
+    <img class="item weishijingjia">&nbsp;
+    <img class="item dongchayandou">&nbsp;
+    <img class="item xiwadeshouhu">&nbsp;
+    <img class="item shanshuobishou">&nbsp;
+    <img class="item shuaxinqiu">&nbsp;
+    <img class="item linglongxin">&nbsp;
+    <img class="item kongaozhixin">&nbsp;
+    <img class="item huiyao">;
+</div>
 <div><br></div>
 <div><br></div>
 
