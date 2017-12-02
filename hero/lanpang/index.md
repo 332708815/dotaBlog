@@ -80,14 +80,14 @@ layout: default
             <td>技能增强</td>
             <td>生命恢复</td>
             <td>魔法恢复</td>
-            <td class="state_resistance">状态抗性</td>
+            <td class="state_resistance" hidden>状态抗性</td>
         </tr>
         
         <tr>
             <td><span id="magic_increase"></span>%</td>
             <td><span id="health_recover"></span>%</td>
             <td><span id="mana_recover"></span>%</td>
-            <td class="state_resistance"><span id="state_resistance"></span>%</td>
+            <td class="state_resistance" hidden><span id="state_resistance"></span>%</td>
         </tr>
 
         </tbody>
