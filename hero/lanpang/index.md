@@ -249,11 +249,11 @@ layout: default
 
 <script>
     var str_init = 23;
-    var int_init = 14;
-    var agi_init = 17;
+    var int_init = 17;
+    var agi_init = 14;
     var str_up = 3.50;
-    var int_up = 1.50;
-    var agi_up = 2.00;
+    var int_up = 2.00;
+    var agi_up = 1.50;
     var health_init = 200;
     var mana_init = 75;
     var attack_min = 41;
