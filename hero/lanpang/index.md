@@ -4,7 +4,7 @@ layout: default
 
 <div style=""><img class="zairu" src="pictures/载入.jpeg"></div>
 
-<div style=""><h2>食人魔法师（简称：蓝胖，英文简称：OM）</h2></div>
+<div style=""><h2>食人魔魔法师（简称：蓝胖，英文简称：OM）</h2></div>
 <br>
 
 <div style=""><h3>属性（裸装）：</h3><br>
@@ -116,7 +116,8 @@ layout: default
 <div><br></div>
 <div>tips：</div>
 <div>
-    
+    <div>1、因为一技能等级提升并不会增加眩晕时间，只会增加伤害和耗蓝，所以前期建议只学一级。</div>
+    <div>2、因为一技能的施法距离非常近，如果经济和局势允许，可以购买闪烁匕首或者原力法杖，增加英雄的机动性，能更容易的眩晕到对手。</div>
 </div>
 <div><br></div>
 <div><br></div>
@@ -129,6 +130,8 @@ layout: default
 <div><br></div>
 <div>tips：</div>
 <div>
+    <div>1、二技能耗蓝少，等级越高，伤害高，减速持续时间越久，建议主加。</div>
+    <div>2、随着大招的升级，二技能变成一个范围伤害+减速的技能，能用二技能推线或者打野。</div>
 </div>
 <div><br></div>
 <div><br></div>
@@ -140,7 +143,11 @@ layout: default
 </div>
 <div><br></div>
 <div>tips：</div>
-<div></div>
+<div>
+    <div>1、满级嗜血术能增加16%移速，相当于穿上了价值2500的远行鞋。</div>
+    <div>2、满级嗜血术能增加60攻速，相当于多吃了一个价值4000的银月之晶。</div>
+    <div>3、所以，己方carry就相当于比对面多两个装备，嗜血术是一个非常值钱的技能。</div>
+</div>
 <div><br></div>
 <div><br></div>
 
@@ -152,6 +159,10 @@ layout: default
 <div><br></div>
 <div>tips：</div>
 <div>
+    <div>1、大招为食人魔魔法师的核心技能。但是，运气好的人，次次都是多重施法；运气差的人，三级大招也只有一重施法。</div>
+    <div>2、1级大招最高只有二重施法；2级大招最高只有三重施法；3级大招最高有四重施法。</div>
+    <div>3、</div>
+    <div>4、</div>
 </div>
 <div><br></div>
 <div><br></div>
@@ -170,75 +181,17 @@ layout: default
 <div><br></div>
 
 <div><h3>出装选择：</h3></div>
-<div>出门：树之祭祀、治疗药膏、魔法芒果、铁树枝干、铁树枝干、守护指环、侦查守卫（辅助提供）</div>
-<div><img class="item shuzhijisi">&nbsp;<img class="item zhiliaoyaogao">&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8bLHuD8f"
-        target="_blank"><img src="http://s16.sinaimg.cn/mw690/002jW8tbzy7gd8bLHuD8f&amp;690"
-                             name="image_operate_28841512024433719"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd84MNpfe1"
-        target="_blank"><img src="http://s2.sinaimg.cn/mw690/002jW8tbzy7gd84MNpfe1&amp;690"
-                             name="image_operate_32571512024566818"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd84MNpfe1"
-        target="_blank"><img src="http://s2.sinaimg.cn/mw690/002jW8tbzy7gd84MNpfe1&amp;690"
-                             name="image_operate_39481512024458082"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd85AG7idc"
-        target="_blank"><img src="http://s13.sinaimg.cn/mw690/002jW8tbzy7gd85AG7idc&amp;690"
-                             name="image_operate_35571512024458172"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd86avSw00"
-        target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gd86avSw00&amp;690"
-                             name="image_operate_95241512024479192"></a></div>
+<div>出门：</div>
+<div></div>
 <div><br></div>
-<div>前期：魔杖、奥术鞋、恢复头巾/治疗指环/王者之戒</div>
-<div><a href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8jeQbNab"
-        target="_blank"><img src="http://s12.sinaimg.cn/mw690/002jW8tbzy7gd8jeQbNab&amp;690"
-                             name="image_operate_70581512024547616"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8k1J3G10"
-        target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gd8k1J3G10&amp;690"
-                             name="image_operate_78871512024559300"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8pqJH927"
-        target="_blank"><img src="http://s8.sinaimg.cn/mw690/002jW8tbzy7gd8pqJH927&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8pZPmS3e"
-        target="_blank"><img src="http://s15.sinaimg.cn/mw690/002jW8tbzy7gd8pZPmS3e&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8qqRIDb3"
-        target="_blank"><img src="http://s4.sinaimg.cn/mw690/002jW8tbzy7gd8qqRIDb3&amp;690"></a></div>
+<div>前期：</div>
+<div></div>
 <div><br></div>
-<div>中期：魔杖、奥术鞋、梅肯斯姆/挑战头巾，闪烁匕首</div>
-<div><a href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8jeQbNab"
-        target="_blank"><img src="http://s12.sinaimg.cn/mw690/002jW8tbzy7gd8jeQbNab&amp;690"
-                             name="image_operate_70581512024547616"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8k1J3G10"
-        target="_blank"><img src="http://s1.sinaimg.cn/mw690/002jW8tbzy7gd8k1J3G10&amp;690"
-                             name="image_operate_11161512024639711"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8krYhncd"
-        target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gd8krYhncd&amp;690"
-                             name="image_operate_66551512024548599"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8kYJakd4"
-        target="_blank"><img src="http://s5.sinaimg.cn/mw690/002jW8tbzy7gd8kYJakd4&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8lt8w58d"
-        target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gd8lt8w58d&amp;690"
-                             name="image_operate_8281512024528113"></a><br></div>
+<div>中期：</div>
+<div></div>
 <div><br></div>
-<div>后期：卫士胫甲、洞察烟斗、希瓦的守护、闪烁匕首、刷新球、玲珑心、恐鳌之心、辉耀</div>
-<div><a href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8vh0Ojd7"
-        target="_blank"><img src="http://s8.sinaimg.cn/mw690/002jW8tbzy7gd8vh0Ojd7&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8A1CND15"
-        target="_blank"><img src="http://s6.sinaimg.cn/mw690/002jW8tbzy7gd8A1CND15&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8AC2Ur03"
-        target="_blank"><img src="http://s4.sinaimg.cn/mw690/002jW8tbzy7gd8AC2Ur03&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8AWDgO5e"
-        target="_blank"><img src="http://s15.sinaimg.cn/mw690/002jW8tbzy7gd8AWDgO5e&amp;690"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8BjkTqb4"
-        target="_blank"><img src="http://s5.sinaimg.cn/mw690/002jW8tbzy7gd8BjkTqb4&amp;690"
-                             name="image_operate_40311512024772177"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8BZdoNdd"
-        target="_blank"><img src="http://s14.sinaimg.cn/mw690/002jW8tbzy7gd8BZdoNdd&amp;690"
-                             name="image_operate_76121512024772197"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8FqQOy0e"
-        target="_blank"><img src="http://s15.sinaimg.cn/mw690/002jW8tbzy7gd8FqQOy0e&amp;690"
-                             name="image_operate_36081512024810365"></a>&nbsp;<a
-        href="http://blog.pictures.sina.com.cn/showpic.html#url=http://album.sina.com.cn/pic/002jW8tbzy7gd8FIa4zb3"
-        target="_blank"><img src="http://s4.sinaimg.cn/mw690/002jW8tbzy7gd8FIa4zb3&amp;690"
-                             name="image_operate_40371512024810560"></a></div>
+<div>后期：</div>
+<div></div>
 <div><br></div>
 <div><br></div>
 
