@@ -190,12 +190,11 @@ layout: default
 <div>
     <div><h3>技能天赋加点：</h3></div>
     <div>建议一：前期发育很不顺，需要15级点经验天赋帮助自己提升等级</div>
-    <div>&nbsp;<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png">左<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png">右<img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png">右右
-    </div>
-    <br></div>
+    <div>&nbsp;<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png">左<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png">右<img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png">右右</div>
+    <br>
     <div>建议二：对面物理输出英雄多，加大减伤削弱对面输出</div>
-    <div>&nbsp;<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png">左<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png">左<img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png">右右
-    </div>
+    <div>&nbsp;<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png">左<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png">左<img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png">右右</div>
+</div>
 <div><br></div>
 <div><br></div>
 
