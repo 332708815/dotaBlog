@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div style=""><img style="height:400px;width:600px" src="pictures/载入.jpeg"></div>
+<div style=""><img class="zairu" src="pictures/载入.jpeg"></div>
 
 <div style=""><h2>食人魔法师（简称：蓝胖，英文简称：OM）</h2></div>
 <br>
