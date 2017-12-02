@@ -406,7 +406,7 @@ layout: default
             $(".state_resistance").show();
         } else if (main_attr == 2) {
             $("#attack").text(String(attack_min + int_init) + " - " + String(attack_max + int_init));
-            $("magic_resistance").text( ((1 -  (1 - magic_resistance_init / 100) * (1 - int_init * 0.15 / 100)) * 100).toFixed(1) )
+            $("#magic_resistance").text( ((1 -  (1 - magic_resistance_init / 100) * (1 - int_init * 0.15 / 100)) * 100).toFixed(1) )
         } else {
             $("#attack").text(String(attack_min + agi_init) + " - " + String(attack_max + agi_init));
             $("#speed").text( (speed_init * ( 1 + agi_init * 0.0006)).toFixed(1) )
@@ -431,7 +431,7 @@ layout: default
                 $(".state_resistance").show();
             } else if (main_attr == 2) {
                 $("#attack").text(String(attack_min + Math.round(int_now)) + " - " + String(attack_max + Math.round(int_now)));
-                $("magic_resistance").text( ((1 -  (1 - magic_resistance_init / 100) * (1 - int_now * 0.15 / 100)) * 100).toFixed(1) )
+                $("#magic_resistance").text( ((1 -  (1 - magic_resistance_init / 100) * (1 - int_now * 0.15 / 100)) * 100).toFixed(1) )
             } else {
                 $("#attack").text(String(attack_min + Math.round(agi_now)) + " - " + String(attack_max + Math.round(agi_now)));
                 $("#speed").text( (speed_init * ( 1 + agi_now * 0.0006)).toFixed(1) )
