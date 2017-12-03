@@ -213,7 +213,7 @@ layout: default
     <img class="item suduzhixue">&nbsp;
     <img class="item cuiduzhizhu">&nbsp;
     <img class="item mozhang">&nbsp;
-    <img class="item fenglinigzhiwen">&nbsp;
+    <img class="item fenglingzhiwen">&nbsp;
     <img class="item yingzhilingkan">&nbsp;
     <img class="item zhenchashouwei">&nbsp;
     <img class="item guijizhiwu">&nbsp;
