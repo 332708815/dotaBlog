@@ -1,0 +1,621 @@
+.item {
+    width: 52px;
+    height: 52px;
+}
+
+.ahalimushenzhang {
+    background: url(../images/itemsPictures/阿哈利姆神杖.jpg);
+}
+
+.atuosizhigun {
+    background: url(../images/itemsPictures/阿托斯之棍.jpg);
+}
+
+.anyinghufu {
+    background: url(../images/itemsPictures/暗影护符.png);
+}
+
+.anmie {
+    background: url(../images/itemsPictures/黯灭.png);
+}
+
+.aoshuxie {
+    background: url(../images/itemsPictures/奥术鞋.gif);
+}
+
+.baiyinzhifeng {
+    background: url(../images/itemsPictures/白银之锋.png);
+}
+
+.banjia {
+    background: url(../images/itemsPictures/板甲.png);
+}
+
+.biaoqiang {
+    background: url(../images/itemsPictures/标枪.png);
+}
+
+.buxiuzhishouhu {
+    background: url(../images/itemsPictures/不朽之守护.png);
+}
+
+.chihongjia {
+    background: url(../images/itemsPictures/赤红甲.jpg);
+}
+
+.cuiduzhizhu {
+    background: url(../images/itemsPictures/淬毒之珠.jpg);
+}
+
+.dagongzhishenli {
+    background: url(../images/itemsPictures/达贡之神力.jpg);
+}
+
+.dajian {
+    background: url(../images/itemsPictures/大剑.png);
+}
+
+.daidaluosizhishang {
+    background: url(../images/itemsPictures/代达罗斯之殇.jpg);
+}
+
+.donglixieliliang {
+    background: url(../images/itemsPictures/动力鞋（力量）.gif);
+}
+
+.donglixieminjie {
+    background: url(../images/itemsPictures/动力鞋（敏捷）.gif);
+}
+
+.donglixiezhili {
+    background: url(../images/itemsPictures/动力鞋（智力）.gif);
+}
+
+.dongwuxinshi {
+    background: url(../images/itemsPictures/动物信使.jpg);
+}
+
+.dongchayandou {
+    background: url(../images/itemsPictures/洞察烟斗.gif);
+}
+
+.duangun {
+    background: url(../images/itemsPictures/短棍.png);
+}
+
+.emodaofeng {
+    background: url(../images/itemsPictures/恶魔刀锋.jpg);
+}
+
+.fashichangpao {
+    background: url(../images/itemsPictures/法师长袍.jpg);
+}
+
+.fenzhengmiansha {
+    background: url(../images/itemsPictures/纷争面纱.jpg);
+}
+
+.fenglingzhiwen {
+    background: url(../images/itemsPictures/风灵之纹.png);
+}
+
+.fengkuangmianju {
+    background: url(../images/itemsPictures/疯狂面具.png);
+}
+
+.foujueguashi {
+    background: url(../images/itemsPictures/否决挂饰.png);
+}
+
+.fuladimierdejipin {
+    background: url(../images/itemsPictures/弗拉迪米尔的祭品.gif);
+}
+
+.gangshaoshouwei {
+    background: url(../images/itemsPictures/岗哨守卫.png);
+}
+
+.gongjizhizhua {
+    background: url(../images/itemsPictures/攻击之爪.png);
+}
+
+.guijizhiwu {
+    background: url(../images/itemsPictures/诡计之雾.jpg);
+}
+
+.heihuangzhang {
+    background: url(../images/itemsPictures/黑皇杖.png);
+}
+
+.hudie {
+    background: url(../images/itemsPictures/蝴蝶.jpg);
+}
+
+.huwan {
+    background: url(../images/itemsPictures/护腕.gif);
+}
+
+.huanxinzhiren {
+    background: url(../images/itemsPictures/欢欣之刃.jpg);
+}
+
+.huanyingfu {
+    background: url(../images/itemsPictures/幻影斧.png);
+}
+
+.huifutoujin {
+    background: url(../images/itemsPictures/恢复头巾.gif);
+}
+
+.huiyao {
+    background: url(../images/itemsPictures/辉耀.jpg);
+}
+
+.huichengjuanzhou {
+    background: url(../images/itemsPictures/回城卷轴.jpg);
+}
+
+.huifujiezhi {
+    background: url(../images/itemsPictures/回复戒指.png);
+}
+
+.huiyinzhanren {
+    background: url(../images/itemsPictures/回音战刃.png);
+}
+
+.huiguang {
+    background: url(../images/itemsPictures/慧光.png);
+}
+
+.hunzhilingweng {
+    background: url(../images/itemsPictures/魂之灵瓮.png);
+}
+
+.huolizhiqiu {
+    background: url(../images/itemsPictures/活力之球.jpg);
+}
+
+.jixianfaqiu {
+    background: url(../images/itemsPictures/极限法球.jpg);
+}
+
+.jiasushoutao {
+    background: url(../images/itemsPictures/加速手套.png);
+}
+
+.jianrenqiu {
+    background: url(../images/itemsPictures/坚韧球.gif);
+}
+
+.jingubang {
+    background: url(../images/itemsPictures/金箍棒.jpg);
+}
+
+.jinglingbudai {
+    background: url(../images/itemsPictures/精灵布带.jpg);
+}
+
+.jingqizhiqiu {
+    background: url(../images/itemsPictures/精气之球.jpg);
+}
+
+.jinghuayaoshui {
+    background: url(../images/itemsPictures/净化药水.jpg);
+}
+
+.jinghunzhiren {
+    background: url(../images/itemsPictures/净魂之刃.png);
+}
+
+.jingmizhixie {
+    background: url(../images/itemsPictures/静谧之鞋.gif);
+}
+
+.juanzhou {
+    background: url(../images/itemsPictures/卷轴.jpg);
+}
+
+.kangmodoupeng {
+    background: url(../images/itemsPictures/抗魔斗篷.png);
+}
+
+.konglingguajian {
+    background: url(../images/itemsPictures/空灵挂件.gif);
+}
+
+.kongmingzhang {
+    background: url(../images/itemsPictures/空明杖.gif);
+}
+
+.kongaozhixin {
+    background: url(../images/itemsPictures/恐鳌之心.png);
+}
+
+.kuweizhishi {
+    background: url(../images/itemsPictures/枯萎之石.png);
+}
+
+.kuangzhanfu {
+    background: url(../images/itemsPictures/狂战斧.jpg);
+}
+
+.kuojian {
+    background: url(../images/itemsPictures/阔剑.png);
+}
+
+.leishenzhichui {
+    background: url(../images/itemsPictures/雷神之锤.jpg);
+}
+
+.liliangshoutao {
+    background: url(../images/itemsPictures/力量手套.jpg);
+}
+
+.liliangyaodai {
+    background: url(../images/itemsPictures/力量腰带.jpg);
+}
+
+.linkenfaqiu {
+    background: url(../images/itemsPictures/林肯法球.gif);
+}
+
+.linghunzhijie {
+    background: url(../images/itemsPictures/灵魂之戒.gif);
+}
+
+.linglongxin {
+    background: url(../images/itemsPictures/玲珑心.png);
+}
+
+.meikensimu {
+    background: url(../images/itemsPictures/梅肯斯姆.gif);
+}
+
+.miyinchui {
+    background: url(../images/itemsPictures/秘银锤.png);
+}
+
+.minjiebianxie {
+    background: url(../images/itemsPictures/敏捷便鞋.jpg);
+}
+
+.mobang {
+    background: url(../images/itemsPictures/魔棒.png);
+}
+
+.mofamangguo {
+    background: url(../images/itemsPictures/魔法芒果.png);
+}
+
+.molifazhang {
+    background: url(../images/itemsPictures/魔力法杖.jpg);
+}
+
+.molongqiang {
+    background: url(../images/itemsPictures/魔龙枪.png);
+}
+
+.moping {
+    background: url(../images/itemsPictures/魔瓶.jpg);
+}
+
+.mozhang {
+    background: url(../images/itemsPictures/魔杖.gif);
+}
+
+.moerdijiandebizhang {
+    background: url(../images/itemsPictures/莫尔迪基安的臂章.jpg);
+}
+
+.naolao {
+    background: url(../images/itemsPictures/奶酪.png);
+}
+
+.nengliangzhiqiu {
+    background: url(../images/itemsPictures/能量之球.jpg);
+}
+
+.ninghunzhilei {
+    background: url(../images/itemsPictures/凝魂之泪.png);
+}
+
+.qiangxizhuangjia {
+    background: url(../images/itemsPictures/强袭装甲.png);
+}
+
+.qinglianbaozhu {
+    background: url(../images/itemsPictures/清莲宝珠.png);
+}
+
+.qiongguidun {
+    background: url(../images/itemsPictures/穷鬼盾（已删）.gif);
+}
+
+.renjia {
+    background: url(../images/itemsPictures/刃甲.png);
+}
+
+.rengu {
+    background: url(../images/itemsPictures/韧鼓.gif);
+}
+
+.sadanzhixieli {
+    background: url(../images/itemsPictures/撒旦之邪力.gif);
+}
+
+.sanhua {
+    background: url(../images/itemsPictures/散华.png);
+}
+
+.sanyeduijian {
+    background: url(../images/itemsPictures/散夜对剑.jpg);
+}
+
+.shanbihufu {
+    background: url(../images/itemsPictures/闪避护符.png);
+}
+
+.shanshuobishou {
+    background: url(../images/itemsPictures/闪烁匕首.png);
+}
+
+.shenyuanzhiren {
+    background: url(../images/itemsPictures/深渊之刃.jpg);
+}
+
+.shenmifazhang {
+    background: url(../images/itemsPictures/神秘法杖.jpg);
+}
+
+.shengjian {
+    background: url(../images/itemsPictures/圣剑.jpg);
+}
+
+.shengzheyiwu {
+    background: url(../images/itemsPictures/圣者遗物.jpg);
+}
+
+.shirenmozhifu {
+    background: url(../images/itemsPictures/食人魔之斧.jpg);
+}
+
+.shouhuzhihuan {
+    background: url(../images/itemsPictures/守护指环.jpg);
+}
+
+.shuzhijisi {
+    background: url(../images/itemsPictures/树之祭祀.jpg);
+}
+
+.shuaxinqiu {
+    background: url(../images/itemsPictures/刷新球.jpg);
+}
+
+.shuaxinqiusuipian {
+    background: url(../images/itemsPictures/刷新球碎片.png);
+}
+
+.shuijinjian {
+    background: url(../images/itemsPictures/水晶剑.jpg);
+}
+
+.sijiadizhiyan {
+    background: url(../images/itemsPictures/斯嘉蒂之眼.gif);
+}
+
+.silingshu {
+    background: url(../images/itemsPictures/死灵书.jpg);
+}
+
+.suduzhixue {
+    background: url(../images/itemsPictures/速度之靴.png);
+}
+
+.suiluchui {
+    background: url(../images/itemsPictures/碎颅锤.jpg);
+}
+
+.suozijia {
+    background: url(../images/itemsPictures/锁子甲.png);
+}
+
+.tiantangzhiji {
+    background: url(../images/itemsPictures/天堂之戟.png);
+}
+
+.tianyingzhijie {
+    background: url(../images/itemsPictures/天鹰之戒.gif);
+}
+
+.tiaozhantoujin {
+    background: url(../images/itemsPictures/挑战头巾.png);
+}
+
+.tieshuzhigan {
+    background: url(../images/itemsPictures/铁树枝干.jpg);
+}
+
+.tieyitoukui {
+    background: url(../images/itemsPictures/铁意头盔.png);
+}
+
+.wangzhezhijie {
+    background: url(../images/itemsPictures/王者之戒.gif);
+}
+
+.weiguangpifeng {
+    background: url(../images/itemsPictures/微光披风.png);
+}
+
+.weishijingjia {
+    background: url(../images/itemsPictures/卫士胫甲.png);
+}
+
+.xixuemianju {
+    background: url(../images/itemsPictures/吸血面具.png);
+}
+
+.ximeisitedelueduo {
+    background: url(../images/itemsPictures/希梅斯特的掠夺.jpg);
+}
+
+.xiwadeshouhu {
+    background: url(../images/itemsPictures/希瓦的守护.gif);
+}
+
+.xianfengdun {
+    background: url(../images/itemsPictures/先锋盾.png);
+}
+
+.xianzhemianju {
+    background: url(../images/itemsPictures/贤者面罩.png);
+}
+
+.xianyingzhichen {
+    background: url(../images/itemsPictures/显影之尘.jpg);
+}
+
+.xianlingzhihuo {
+    background: url(../images/itemsPictures/仙灵之火.png);
+}
+
+.xiangweixie {
+    background: url(../images/itemsPictures/相位鞋.gif);
+}
+
+.xieeliandao {
+    background: url(../images/itemsPictures/邪恶镰刀.jpg);
+}
+
+.xulingzhiren {
+    background: url(../images/itemsPictures/虚灵之刃.jpg);
+}
+
+.xuwubaoshi {
+    background: url(../images/itemsPictures/虚无宝石.jpg);
+}
+
+.xuanmingdunpai {
+    background: url(../images/itemsPictures/玄冥盾牌.gif);
+}
+
+.xuanwo {
+    background: url(../images/itemsPictures/漩涡.png);
+}
+
+.xueji {
+    background: url(../images/itemsPictures/血棘.png);
+}
+
+.xuejingshi {
+    background: url(../images/itemsPictures/血精石.png);
+}
+
+.yazhizhiren {
+    background: url(../images/itemsPictures/压制之刃.png);
+}
+
+.yanyangwenzhang {
+    background: url(../images/itemsPictures/炎阳纹章.png);
+}
+
+.yecha {
+    background: url(../images/itemsPictures/夜叉.png);
+}
+
+.yinyuezhijing {
+    background: url(../images/itemsPictures/银月之晶.png);
+}
+
+.yinggegong {
+    background: url(../images/itemsPictures/鹰歌弓.jpg);
+}
+
+.yingren {
+    background: url(../images/itemsPictures/影刃.jpg);
+}
+
+.yingzhilingkan {
+    background: url(../images/itemsPictures/影之灵龛.gif);
+}
+
+.yonghengzhipan {
+    background: url(../images/itemsPictures/永恒之盘.png);
+}
+
+.yongqixunzhang {
+    background: url(../images/itemsPictures/勇气勋章.gif);
+}
+
+.youhunquanzhang {
+    background: url(../images/itemsPictures/幽魂权杖.png);
+}
+
+.yuanlifazhang {
+    background: url(../images/itemsPictures/原力法杖.jpg);
+}
+
+.yuandun {
+    background: url(../images/itemsPictures/圆盾.png);
+}
+
+.yuanhuan {
+    background: url(../images/itemsPictures/圆环.jpg);
+}
+
+.yuanxingxie {
+    background: url(../images/itemsPictures/远行鞋.gif);
+}
+
+.yuanlingxidai {
+    background: url(../images/itemsPictures/怨灵系带.gif);
+}
+
+.yunxingchui {
+    background: url(../images/itemsPictures/陨星锤.png);
+}
+
+.zhenchashouwei {
+    background: url(../images/itemsPictures/侦查守卫.jpg);
+}
+
+.zhenshibaoshi {
+    background: url(../images/itemsPictures/真视宝石.png);
+}
+
+.zhenfenbaoshi {
+    background: url(../images/itemsPictures/振奋宝石.jpg);
+}
+
+.zhenhunshi {
+    background: url(../images/itemsPictures/镇魂石.png);
+}
+
+.zhipeitoukui {
+    background: url(../images/itemsPictures/支配头盔.png);
+}
+
+.zhishizhishu {
+    background: url(../images/itemsPictures/知识之书.png);
+}
+
+.zhiliaoyaogao {
+    background: url(../images/itemsPictures/治疗药膏.jpg);
+}
+
+.zhiliaozhihuan {
+    background: url(../images/itemsPictures/治疗指环.jpg);
+}
+
+.zhilidoupeng {
+    background: url(../images/itemsPictures/智力斗篷.jpg);
+}
+
+.ziyuan {
+    background: url(../images/itemsPictures/紫怨.jpg);
+}
+
+.fengzhang {
+    background: url(../images/itemsPictures/Eul的神圣法杖.jpg);
+}
+
