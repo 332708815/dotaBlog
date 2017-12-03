@@ -171,18 +171,24 @@ layout: default
 <div><br></div>
 <div><br></div>
 
-<div><h3>天赋：</h3></div>
-<div><img src="pictures/天赋.png"></div>
+<div>
+    <div><h3>技能加点：</h3></div>
+    <div>建议一：前期发育很不顺，需要15级点经验天赋帮助自己提升等级</div>
+    <div><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png"></div>
+    <br>
+    <div>建议二：对面物理输出英雄多，加大减伤削弱对面输出</div>
+    <div><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png"></div>
+</div>
 <div><br></div>
 <div><br></div>
 
+<div><h3>天赋：</h3></div>
+<div><img src="pictures/天赋.png"></div>
 <div>
-    <div><h3>技能天赋加点：</h3></div>
-    <div>建议一：前期发育很不顺，需要15级点经验天赋帮助自己提升等级</div>
-    <div>&nbsp;<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png">左<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png">右<img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png">右右</div>
-    <br>
-    <div>建议二：对面物理输出英雄多，加大减伤削弱对面输出</div>
-    <div>&nbsp;<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png">左<img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png">左<img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png">右右</div>
+    <div>10级：左边增加一技能伤害，右边增加移动速度，建议加左边。</div>
+    <div>15级：前期发育很不顺时，建议加右边，其他时候建议加左边。</div>
+    <div>20级：左边增加一技能的护甲削弱，右边使自己更肉，建议加右边。</div>
+    <div>25级：左边相当于自带圣剑，但作为主打控制的三号位英雄，建议加右边，减少技能冷却时间。</div>
 </div>
 <div><br></div>
 <div><br></div>
