@@ -148,7 +148,7 @@ layout: default
 <div><br></div>
 <div>tips：</div>
 <div>
-    <div>1、满级嗜血术能增加16%移速，相当于装备了价值2500的远行鞋。</div>
+    <div>1、满级嗜血术能增加16%移速，相当于装备了价值2400的远行鞋。</div>
     <div>2、满级嗜血术能增加60攻速，相当于多使用了一个价值4000的银月之晶。</div>
     <div>3、所以，己方carry相当于比对面多两个装备。嗜血术是一个非常值钱的技能，建议主加。</div>
 </div>
@@ -198,22 +198,56 @@ layout: default
 <div><br></div>
 
 <div><h3>出装选择：</h3></div>
-<div>出门：</div>
-<div></div>
+<div>出门：树之祭祀、魔法芒果、动物信使、侦查守卫、岗哨守卫、诡计之雾</div>
+<div>
+    <img class="item shuzhijisi">&nbsp;
+    <img class="item mofamangguo">&nbsp;
+    <img class="item dongwuxinshi">&nbsp;
+    <img class="item zhenchashouwei">&nbsp;
+    <img class="item gangshaoshouwei">&nbsp;
+    <img class="item guijizhiwu">&nbsp;
+</div>
 <div><br></div>
-<div>前期：</div>
-<div></div>
+<div>前期：速度之靴、淬毒之珠、魔杖、风灵之纹、影之灵龛、侦查守卫、诡计之雾</div>
+<div>
+    <img class="item suduzhixue">&nbsp;
+    <img class="item cuiduzhizhu">&nbsp;
+    <img class="item mozhang">&nbsp;
+    <img class="item fenglinigzhiwen">&nbsp;
+    <img class="item yingzhilingkan">&nbsp;
+    <img class="item zhenchashouwei">&nbsp;
+    <img class="item guijizhiwu">&nbsp;
+</div>
 <div><br></div>
-<div>中期：</div>
-<div></div>
+<div>中期：静谧之鞋、淬毒之珠、魔杖、魂之灵瓮、原力法杖/微光披风</div>
+<div>
+    <img class="item jingmizhixie">&nbsp;
+    <img class="item cuiduzhizhu">&nbsp;
+    <img class="item mozhang">&nbsp;
+    <img class="item hunzhilingweng">&nbsp;
+    <img class="item yuanlifazhang">&nbsp;
+    <img class="item weiguangpifeng">&nbsp;
+</div>
 <div><br></div>
-<div>后期：</div>
-<div></div>
+<div>后期：远行鞋、洞察烟斗、希瓦的守护、魂之灵瓮、清莲宝珠、原力法杖、微光披风、炎阳纹章</div>
+<div>
+    <img class="item yuanxingxie">&nbsp;
+    <img class="item dongchayandou">&nbsp;
+    <img class="item xiwadeshouhu">&nbsp;
+    <img class="item hunzhilingweng">&nbsp;
+    <img class="item qinglianbaozhu">&nbsp;
+    <img class="item yuanlifazhang">&nbsp;
+    <img class="item weiguangpifeng">&nbsp;
+    <img class="item yanyangwenzhang">&nbsp;
+</div>
 <div><br></div>
 <div><br></div>
 
 <div><h3>打法：</h3></div>
-
+<div>对线期，帮助中路英雄压制对方中单，有控制、有减速，自身又是高血量、高护甲，可以让对方中单混的很难受。</div>
+<div>前中期有了静谧之鞋和风灵之纹，利用高机动性赶往任何一处站场。有了影之灵龛还能增加续航。</div>
+<div>积极的为己方大哥提供嗜血术buff，增加大哥打钱速度。</div>
+<div>后期主要提供控制和减速，并为大哥吸收火力，出一些保护队友的装备，保护大哥不被对面先手秒杀。</div>
 <div><br></div>
 
 
