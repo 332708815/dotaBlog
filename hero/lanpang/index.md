@@ -102,6 +102,10 @@ layout: default
 <div style="">
     <img style="height:300px;width:300px" src="pictures/定位.png">
 </div>
+<br>
+<div>
+    <div>tips：食人魔魔法师大多是五号位辅助。凭着高护甲和高血量，自带控制技能和减速技能，前期是一位健身教练，后期是一个吃伤害的肉盾的作用。</div>
+</div>
 <div style=""><br></div>
 <div style=""><br></div>
 
@@ -116,8 +120,8 @@ layout: default
 <div><br></div>
 <div>tips：</div>
 <div>
-    <div>1、因为一技能等级提升并不会增加眩晕时间，只会增加伤害和耗蓝，所以前期建议只学一级。</div>
-    <div>2、因为一技能的施法距离非常近，如果经济和局势允许，可以购买闪烁匕首或者原力法杖，增加英雄的机动性，能更容易的眩晕到对手。</div>
+    <div>1、因为技能等级提升并不会增加眩晕时间，只会增加伤害和耗蓝，所以前期建议只学一级。</div>
+    <div>2、因为技能的施法距离非常近，如果经济和局势允许，可以购买闪烁匕首或者原力法杖，增加英雄的机动性，能更容易的眩晕到对手。</div>
 </div>
 <div><br></div>
 <div><br></div>
@@ -130,7 +134,7 @@ layout: default
 <div><br></div>
 <div>tips：</div>
 <div>
-    <div>1、二技能耗蓝少，等级越高，伤害高，减速持续时间越久，建议主加。</div>
+    <div>1、技能耗蓝少，等级越高，伤害高，减速持续时间越久，建议主加。</div>
     <div>2、随着大招的升级，二技能变成一个范围伤害+减速的技能，能用二技能推线或者打野。</div>
 </div>
 <div><br></div>
@@ -144,9 +148,9 @@ layout: default
 <div><br></div>
 <div>tips：</div>
 <div>
-    <div>1、满级嗜血术能增加16%移速，相当于穿上了价值2500的远行鞋。</div>
-    <div>2、满级嗜血术能增加60攻速，相当于多吃了一个价值4000的银月之晶。</div>
-    <div>3、所以，己方carry就相当于比对面多两个装备，嗜血术是一个非常值钱的技能。</div>
+    <div>1、满级嗜血术能增加16%移速，相当于装备了价值2500的远行鞋。</div>
+    <div>2、满级嗜血术能增加60攻速，相当于多使用了一个价值4000的银月之晶。</div>
+    <div>3、所以，己方carry相当于比对面多两个装备。嗜血术是一个非常值钱的技能，建议主加。</div>
 </div>
 <div><br></div>
 <div><br></div>
@@ -161,21 +165,34 @@ layout: default
 <div>
     <div>1、大招为食人魔魔法师的核心技能。但是，运气好的人，次次都是多重施法；运气差的人，三级大招也只有一重施法。</div>
     <div>2、1级大招最高只有二重施法；2级大招最高只有三重施法；3级大招最高有四重施法。</div>
-    <div>3、</div>
-    <div>4、</div>
+</div>
+<div><br></div>
+<div><br></div>
+
+<div>
+    <div><h3>技能加点：</h3></div>
+    <div>
+        <div>1、主三技能，全程帮大哥增加移速攻速，更快打钱发育，增加战斗力。副二技能，增加中期输出。</div>
+        <div><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png"></div>
+        <br>
+        <div>2、主二技能，增加全程对对方英雄线上的骚扰能力。副三技能，中后期为大哥增加输出移速攻速，更快打钱发育，增加战斗力。</div>
+        <div><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png"></div>
+        <br>
+        <div>3、一二对点，自己打法术爆发。（酱油蓝胖不建议这样加点。）</div>
+        <div><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/一技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/二技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/三技能.png"><img class="skill_icon" src="pictures/四技能.png"></div>
+    </div>
+    <br>
 </div>
 <div><br></div>
 <div><br></div>
 
 <div><h3>天赋：</h3></div>
 <div><img src="pictures/天赋.png"></div>
-<div><br></div>
-<div><br></div>
-
 <div>
-    <div><h3>技能天赋加点：</h3></div>
-    <div></div>
-    <br>
+    <div>10级：作为一个五号位酱油，选择右边的加钱天赋没毛病。如果你不爱钱，那就选择左边的加施法距离吧。</div>
+    <div>15级：有血加血！而且也不指望酱油蓝胖上去打普攻输出，建议加左边天赋。</div>
+    <div>20级：加左边就相当于为队友每个人多出一个价值2000的振奋宝石。加右边则自己更肉。推荐加左边。</div>
+    <div>25级：欧皇推荐加左边，普通推荐加右边。</div>
 </div>
 <div><br></div>
 <div><br></div>

@@ -102,6 +102,10 @@ layout: default
 <div style="">
     <img style="height:300px;width:300px" src="pictures/定位.png">
 </div>
+<br>
+<div>
+    <div>tips：潮汐猎人一般为三号位抗压。力量英雄加上被动减伤，是一个不俗的肉盾。大招又是大范围眩晕，是一个少有的大控英雄。</div>
+</div>
 <div style=""><br></div>
 <div style=""><br></div>
 
