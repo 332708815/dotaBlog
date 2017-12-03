@@ -2,7 +2,7 @@
 <nav class="teal accent-4" role="navigation">
   <div class="container">
     <div class="nav-wrapper"><a id="logo-container" href="{{ relative_url }}" class="brand-logo">{{ site.title }}</a>
-      <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           {% for item in site.data.navigation %}
             <li><a href="{{ item.url | prepend: site.github.url }}">{{ item.title }}</a></li>
