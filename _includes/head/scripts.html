@@ -17,12 +17,12 @@
 
     custom: {
       families: ['icomoon'],
-      urls: ['{{ icons_url | relative_url }}']
+      urls: ['{{ icons_url }}']
     }
   };
   (function(d) {
     var wf = d.createElement('script'), s = d.scripts[0];
-    wf.src = "{{ '/assets/bower_components/webfontloader/webfontloader.js' | relative_url }}";
+    wf.src = "{{ 'assets/bower_components/webfontloader/webfontloader.js' }}";
     s.parentNode.insertBefore(wf, s);
   }(document));
 </script>
@@ -40,5 +40,5 @@
     </style>
   {% endunless %}
 
-  <link rel="stylesheet" href="{{ icons_url | relative_url }}">
+  <link rel="stylesheet" href="{{ icons_url  }}">
 </noscript>
