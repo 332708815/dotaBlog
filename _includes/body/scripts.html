@@ -26,8 +26,7 @@
   {% endif %}
 
   <!--[if gt IE 9]><!---->
-  {% capture js_url %}{% link assets/js/hydejack-7.4.2.js %}{% endcapture %}
-  <script>loadJSDeferred('{{ js_url | relative_url }}');</script>
+  <script>loadJSDeferred('{{ "assets/js/hydejack-7.4.2.js" }}');</script>
   {% include my-scripts.html %}
   <!--<![endif]-->
 {% endunless %}
