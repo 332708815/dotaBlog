@@ -156,8 +156,10 @@ draft: false
         // 循环所有列表，查找匹配项
         for (i = 0; i < tr.length; i++) {
             var td = tr[i].getElementsByTagName("td")[0];
-            var a = td.getElementsByTagName("a")[0];
-            if (a.innerHTML.attr("value").indexOf(filter) > -1) {
+            var a = td.getElementsByTagName("a")[1];
+            if (a == undefined) {
+                tr[i].style.display = "";
+            } else if (a.innerHTML.indexOf(filter) > -1) {
                 tr[i].style.display = "";
             } else {
                 tr[i].style.display = "none";
