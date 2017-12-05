@@ -56,7 +56,7 @@ Set the fallback values in `_config.yml`, which are used should no other rule (p
 
 ~~~yml
 # file: _config.yml
-accent_image: /assets/img/sidebar-bg.jpg
+accent_image: assets/img/sidebar-bg.jpg
 accent_color: '#A85641'
 ~~~
 
@@ -496,7 +496,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          assets/img/sidebar-bg.jpg
 accent_color:          '#4fb1ba'
 
 # The string encoding which fonts to fetch from Google Fonts.
