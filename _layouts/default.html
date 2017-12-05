@@ -22,6 +22,11 @@
 
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/heroData.css' | relative_url }}">
 
+    <script type="text/javascript" src="{{ site.github.url }}/assets/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="{{ site.github.url }}/assets/js/materialize.min.js"></script>
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    <script type="text/javascript" src="{{ site.github.url }}/assets/js/jquery.imgbox.pack.js"></script>
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -32,10 +37,6 @@
 
 {{ content }}
 
-<script type="text/javascript" src="{{ site.github.url }}/assets/js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="{{ site.github.url }}/assets/js/materialize.min.js"></script>
-<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-<script type="text/javascript" src="{{ site.github.url }}/assets/js/jquery.imgbox.pack.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         $(".button-collapse").sideNav();
