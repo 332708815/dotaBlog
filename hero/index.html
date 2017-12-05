@@ -150,7 +150,9 @@ draft: false
 
     function myFunction() {
         // 声明变量
-        var i;
+        var input, filter, i;
+        input = document.getElementById('myInput');
+        filter = input.value.toUpperCase();
         var tr = document.getElementsByTagName('tr');
 
         // 循环所有列表，查找匹配项
